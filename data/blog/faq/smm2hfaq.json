@@ -1,0 +1,41 @@
+{
+    "Renewal": {
+        "id": "one",
+        "collaspe": "one",
+        "question": "What is the renewal process?",
+        "answer": [
+            "Required Documents",
+            "Completed renewal application form",
+            "Proof of financial resources, such as bank statements or fixed deposit certificates",
+            "Proof of medical insurance coverage."
+        ],
+        "weight": 1
+    },
+    "Extension": {
+        "id": "two",
+        "collaspe": "two",
+        "question": "What is the extension process?",
+        "answer": "The Sarawak Tourism Board will review the visa extension application and supporting documents. They may request additional information or documentation if needed. The processing time for visa extensions can vary, but it generally takes several weeks to a few months.",
+        "weight": 2
+    },
+    "Termination": {
+        "id": "three",
+        "collaspe": "three",
+        "question": "What is the termination process?",
+        "answer": "If a participant decides to terminate their participation in the MM2H program, they can withdraw the entire fixed deposit amount. To do so, they must obtain the Approval letter from the Ministry of Tourism, which confirms the termination of their MM2H status.",
+        "weight": 3
+    },
+    "Withdrawal": {
+        "id": "four",
+        "collaspe": "four",
+        "question": "What is the withdrawal process?",
+        "answer": [
+            "Letter of Intent from Applicant",
+            "Copy of Approved S-MM2H Conditional Approval Letter",
+            "Copy of Applicant's Passport (Applicant's Personal Details and Multiple-Entry Pass Page)",
+            "Copy of Latest Fixed Deposit with the bank address and the account number",
+            "Copy of Proof of Payment or any Supported Documents"
+        ],
+        "weight": 4
+    }
+}

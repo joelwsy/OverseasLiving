@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "shared/head.html" .}}
+<body id = "top">
+    {{ partial "shared/nav.html" .}}
+    
+    {{ block "main" .}}
+    {{ end }}
+
+    {{ partial "homepage/section_5" .}}
+    {{ partial "shared/footer.html" .}}
+    {{ partial "shared/scripts.html" .}}
+
+    {{block "scripts" .}}
+    {{end}}
+</body>
+
+</html>

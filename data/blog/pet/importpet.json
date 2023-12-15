@@ -1,0 +1,43 @@
+{
+    "1st_step": {
+        "step": "1. Fill in the inquiry form",
+        "description": "Import permit will be issued by The Department of Malaysian Quarantine and Inspection Services (MAQIS) within 1-2 days upon submission of complete documents."
+    },
+    "2nd_step": {
+        "step": "2. Submit all the required documents",
+        "description": [
+            "Health Check Report (must have microchip number & Rabies Vaccination dates)",
+            "Pet's Vaccination Certificate (any documents in other languages required translation, and translation fee is applicable)",
+            "Address and contact number in Malaysia and exporting country",
+            "Passport biodata page of importer",
+            "Flight ticket, Address and contact number of importer in Malaysia and exporting country",
+            "Export permit from origin country"
+        ]
+    },
+    "3rd_step": {
+        "step": "3. Obtain import permit",
+        "description": "The import permit is valid for 30 days from date of issuance."
+    },
+    "4th_step": {
+        "step": "4. Pet arrives safely in Malaysia!",
+        "description": "Visit MAQIS counter and present all your original documents for clearance of pets."
+    },
+    "note": {
+        "title": "Note : ",
+        "description": [
+            "All applications for pet import and export can ONLY be processed by authorized agents.",
+            "List of countries are exempted from quarantine requirements:"
+        ],
+        "countries": [
+            "Australia",
+            "Brunei",
+            "Ireland",
+            "Japan",
+            "New Zealand",
+            "Northern Ireland",
+            "Singapore",
+            "Sweden",
+            "United Kingdom"
+        ]
+    }
+}

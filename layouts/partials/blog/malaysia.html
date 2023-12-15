@@ -1,0 +1,33 @@
+<link href="{{ "css/malaysia.css" | absURL }}" rel="stylesheet">
+
+{{ $data := getJSON "data/blog/malaysia/mly.json" }}
+
+{{ $contentParts := split . "<!-- split -->" }}
+{{ index $contentParts 0 | markdownify }}
+
+{{ $counter := 1 }}
+
+{{ range $key, $value := $data.div }}
+<section class="mly" style="text-align: justify;">
+    <div class="mly-title">
+        <h3>{{ $value.heading }}</h3>
+        <h2>{{ $value.heading2 }}</h2>
+        <h6>{{ $value.description }}</h6>
+    </div>
+    <div class="mly-showcase">
+        {{ range $index, $image := $value.image }}
+        <img src="{{ $image }}">
+        {{ end }}
+    </div>
+
+    <div class="mly">
+        <p>
+            {{ index $contentParts $counter | markdownify }}
+        </p>
+    </div>
+
+</section>
+
+{{ $counter = add $counter 1}}
+
+{{ end }}

@@ -1,0 +1,79 @@
+<section>
+
+    <style>
+        img {
+            max-width: 300px;
+            display: flexbox;
+        }
+
+        div.condo {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .condo {
+            border: 1px solid black;
+            height: auto;
+            display: inline-block;
+        }
+
+        .image-container {
+            float: left;
+            width: 30%;
+        }
+
+        td {
+            text-align: left;
+        }
+    </style>
+
+    {{$data := getJSON "data/blog/property/condo.json"}}
+    {{ range $name, $value := $data }}
+
+    <div class="condo" style="clear: both;">
+        <h6>{{ $name }}</h6>
+        <div class="image-container">
+            {{ range $index, $img := $value.image }}
+            <img src="{{ $img }}" alt="condo" style="width: 100%;">
+            {{ end }}
+        </div>
+
+        <table style="float: right; width: 70%;">
+            <tr>
+                <th>Location</th>
+                <td>{{ $value.Location }}</td>
+            </tr>
+            <tr>
+                <th>Year</th>
+                <td>{{ $value.Year }}</td>
+            </tr>
+            <tr>
+                <th>Total Floors</th>
+                <td>{{ index $value "Total floors" }}</td>
+            </tr>
+            <tr>
+                <th>Floor Area</th>
+                <td>{{ index $value "Floor-area" }}</td>
+            </tr>
+            <tr>
+                <th>Rental</th>
+                <td>{{ $value.Rental }}</td>
+            </tr>
+            <tr>
+                <th>Selling Price</th>
+                <td>{{ index $value "Selling price" }}</td>
+            </tr>
+            <tr>
+                <th>Facilities</th>
+                <td>{{ $value.Facilities }}</td>
+            </tr>
+            <tr>
+                <th>Remarks</th>
+                <td>{{ $value.Remarks }}</td>
+            </tr>
+        </table>
+        {{ end }}
+    </div>
+
+</section>

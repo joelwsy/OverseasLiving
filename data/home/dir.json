@@ -1,0 +1,121 @@
+{
+    "1_Marketing": {
+        "id": "marketing-tab-pane",
+        "role": "tabpanel",
+        "ariaLabelledby": "marketing-tab",
+        "tabIndex": "1",
+        "blocks": [
+            {
+                "link": "/mm2hvisa/",
+                "title": "eMM2H VISA APPLICATION",
+                "description": "Malaysia My Second Home offers 10-years multiple social visit pass, with no minimum stay required!",
+                "image": "images/logo/MM2H-Logo.png"
+            },
+            {
+                "link": "/smm2hvisa/",
+                "title": "SMM2H VISA APPLICATION",
+                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "image": "images/logo/SMM2H-Logo.png"
+            },
+            {
+                "link": "/pet/",
+                "title": "Export of Pets",
+                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "image": "images/icons/paw.png"
+            }
+        ]
+    },
+    "2_malaysia": {
+        "id": "abt_malaysia-tab-pane",
+        "role": "tabpanel",
+        "ariaLabelledby": "malaysia-tab",
+        "tabIndex": "2",
+        "blocks": [
+            {
+                "link": "/malaysia/",
+                "title": "Low Cost of Living",
+                "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et earum exercitationem perferendis sint aperiam iusto, expedita accusamus minima ipsum assumenda! Facere doloribus id sint nostrum quidem, totam debitis repellendus in!",
+                "image": "images/icons/piggybank.svg"
+            },
+            {
+                "link": "/malaysia#education/",
+                "title": "Quality Education",
+                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "image": "images/icons/school.svg"
+            },
+            {
+                "link": "/malaysia#culture/",
+                "title": "Culture",
+                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "image": "images/icons/diversity.svg"
+            }
+        ]
+    },
+    "3_aboutpg": {
+        "id": "aboutpg-tab-pane",
+        "role": "tabpanel",
+        "ariaLabelledby": "aboutpg-tab",
+        "tabIndex": "3",
+        "blocks": [
+            {
+                "link": "/penang/",
+                "title": "Heritage",
+                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "image": "images/malaysia/temple.jpg"
+            },
+            {
+                "link": "/penang/",
+                "title": "Food",
+                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "image": "images/malaysia/food.jpg"
+            }
+        ]
+    },
+
+    "4_estate": {
+        "id": "estate-tab-pane",
+        "role": "tabpanel",
+        "ariaLabelledby": "estate-tab",
+        "tabIndex": "4",
+        "blocks": [
+            {
+                "link": "/condo/",
+                "title": "Condominiums",
+                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "image": "images/icons/condo.svg"
+            },
+            {
+                "link": "topics-detail.html",
+                "title": "Real Estate",
+                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "image": "images/icons/house.svg"
+            },
+            {
+                "link": "topics-detail.html",
+                "title": "Long & Short Stay",
+                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "image": "images/icons/luggage.svg"
+            }
+        ]
+    },
+    "5_Education": {
+        "id": "education-tab-pane",
+        "role": "tabpanel",
+        "ariaLabelledby": "education-tab",
+        "tabIndex": "5",
+        "blocks": [
+            {
+                "link": "topics-detail.html",
+                "title": "Study in Malaysia",
+                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "image": "images/icons/malaysia-icon.png"
+            },
+            {
+                "link": "topics-detail.html",
+                "title": "Study outside of Malaysia",
+                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "image": "images/icons/globe.svg"
+            }
+        ]
+    }
+}

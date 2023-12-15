@@ -1,0 +1,30 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Overseas Living'
+
+[menu]
+
+    [[menu.main]]
+    name = 'Home'
+    url = '#home'
+    weight = 1
+
+    [[menu.main]]
+    name = 'Content'
+    url = '#content'
+    weight = 2
+
+    [[menu.main]]
+    name = 'eMM2H & sMM2H'
+    url = '#emm2h'
+    weight = 3
+
+    [[menu.main]]
+    name = 'FAQs'
+    url = '#faqs'
+    weight = 4
+
+    [[menu.main]]
+    name = 'Contact'
+    url = '#contact'
+    weight = 5

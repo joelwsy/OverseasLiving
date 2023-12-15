@@ -1,0 +1,25 @@
+{
+    "1_abt_malaysia" : {
+        "id" : "abt_malaysia",
+        "title" : "Why Malaysia?",
+        "weight" : 2
+    },
+
+    "2_aboutpg" : {
+        "id" : "aboutpg",
+        "title" : "About Penang",
+        "weight" : 3
+    },
+
+    "3_estate" : {
+        "id" : "estate",
+        "title" : "Properties",
+        "weight" : 4
+    }, 
+
+    "4_Education" : {
+        "id" : "education",
+        "title" : "Education",
+        "weight" : 5
+    }
+}

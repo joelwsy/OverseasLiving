@@ -1,0 +1,29 @@
+<section class="explore-section section-padding" id="section_2">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12 text-center">
+                <h2 class="mb-4">Browse Content</h1>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="marketing-tab" data-bs-toggle="tab"
+                        data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="Marketing-tab-pane"
+                        aria-selected="true">Our Services</button>
+                </li>
+                {{ range . }}
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="{{ .id }}-tab" data-bs-toggle="tab"
+                        data-bs-target="#{{ .id }}-tab-pane" type="button" role="tab" aria-controls="{{ .id }}-tab-pane"
+                        aria-selected="false">{{ .title }}</button>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>

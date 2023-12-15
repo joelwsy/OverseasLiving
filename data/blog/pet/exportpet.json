@@ -1,0 +1,33 @@
+{
+    "1st_step": {
+        "step": "1. Fill in the inquiry form",
+        "description": ""
+    },
+
+    "2nd_step": {
+        "step": "2. Submit all the required documents",
+        "description": [
+            "Passport biodata page of pets owner",
+            "Flight ticket",
+            "Address and contact number in Malaysia and importing country",
+            "Vaccination record",
+            "Rabies antibody test certificate (Contact Veterinary Clinic for lab test)",
+            "Import Permit from Importing Country"
+        ]
+    },
+
+    "3rd_step": {
+        "step": "3. Visit Malaysian State Veterinary Department for health inspection",
+        "description": "Make an appointment with the Malaysian State Veterinary Department in advance for health inspection."
+    },
+
+    "4th_step": {
+        "step": "4. Obtain export permit",
+        "description": "Veterinarian Department will issue export permit after the pet inspection."
+    },
+
+    "5th_step": {
+        "step": "5. Pet arrives safely in the destination country!",
+        "description": ""
+    }
+}

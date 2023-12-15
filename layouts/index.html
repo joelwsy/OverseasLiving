@@ -1,0 +1,15 @@
+{{define "main"}}
+{{partial "homepage/section_1.html"}}
+{{ with .Site.Data.home.topic}}
+{{partial "homepage/section_2.html" .}}
+{{end}}
+{{ with .Site.Data.home.dir}}
+{{partial "homepage/section_2dir.html" .}}
+{{end}}
+{{ with .Site.Data.home.mm2hflow}}
+{{partial "homepage/section_3.html" .}}
+{{end}}
+{{partial "homepage/section_4.html"}}
+{{partial "homepage/section_5.html"}}
+{{end}}
+

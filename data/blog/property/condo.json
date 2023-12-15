@@ -1,0 +1,94 @@
+{
+    "1 Sky": {
+        "image": [
+            "https://lh3.googleusercontent.com/p/AF1QipOTbcst9TS0-86f0MVjrDXI0AvbdhQPMMuQ8_sk=s1360-w1360-h1020",
+            "https://www.idealproperty.com.my/wp-content/uploads/2019/01/1-Sky-copy-2.jpg"
+        ],
+        "Location": "Bayan Lepas",
+        "Year": "2015",
+        "Total floors": "26",
+        "Floor-area": "128 ~ 153 square meter",
+        "Rental": "RM 1,800~",
+        "Selling price": "RM 565,000~",
+        "Facilities": "Clubhouse, barbeque area, children playground, gym, swimming pool, 24-hours security",
+        "Remarks": "Near the Sunshine Square and Queensbay mall, Few mins drive to Penang Bridge and the Penang International Airport"
+    },
+    "118 @ Island Plaza": {
+        "image": [
+            ""
+        ],
+        "Location": "Tanjung Tokong",
+        "Year": "2015",
+        "Total floors": "12",
+        "Floor-area": "45 ~ 108 square meter",
+        "Rental": "RM 2,500 ~",
+        "Selling price": "RM 496,000 ~",
+        "Facilities": "Swimming pool, gym",
+        "Remarks": "Formerly Island Plaza office building. Bus stop, supermarket, shopping mall, restaurants and hawker center are within walking distance"
+    },
+    "Bayswater": {
+        "image": [
+            ""
+        ],
+        "Location": "Gelugor",
+        "Year": "2010",
+        "Total floors": "26",
+        "Floor-area": "106 ~ 152 square meter",
+        "Rental": "RM 2,200 ~",
+        "Selling price": "RM 900,000 ~",
+        "Facilities": "Swimming pool, jacuzzi, gym, playground, basketball court, tennis courts, 24-hours security",
+        "Remarks": "Located next to Tesco and E-Gate Complex only 3-mins drive to Penang Bridge"
+    },
+    "Bellisa Court": {
+        "image": [
+            ""
+        ],
+        "Location": "Tanjung Tokong",
+        "Year": "2009",
+        "Total floors": "20",
+        "Floor-area": "92 ~ 139 square meter",
+        "Rental": "RM 1,800 ~",
+        "Selling price": "RM 550,000 ~",
+        "Facilities": "Swimming pool, gym, sauna, tennis court, squash court, playground, 24-hours security",
+        "Remarks": "Near to Gurney Plaza and Gurney Paragon, 5-mins drive to Tanjung Bungah and 10-mins drive to Georgetown"
+    },
+    "BIRCH REGENCY @ PENANG TIMES SQUARE": {
+        "image": [
+            ""
+        ],
+        "Location": "Georgetown",
+        "Year": "2012",
+        "Total floors": "21",
+        "Floor-area": "88 ~ 232 square meter",
+        "Rental": "RM 1,800 ~",
+        "Selling price": "RM 600,000 ~",
+        "Facilities": "Barbeque area, children playground, swimming pool, sauna, gym, 24-hours security",
+        "Remarks": "Food court and McDonalds are right below the condominium."
+    },
+    "COASTAL TOWER": {
+        "image": [
+            ""
+        ],
+        "Location": "Tanjung Bungah",
+        "Year": "2007",
+        "Total floors": "27",
+        "Floor-area": "75 ~ 112 square meter",
+        "Rental": "RM 1,500 ~",
+        "Selling price": "RM 595,000 ~",
+        "Facilities": "Gym, swimming pool, sauna, children playground, barbeque area, 24-hours security",
+        "Remarks": "10 ~15 mins drive to shopping center, restaurants, banks and Gurney area; some units can enjoy great sea view from balconies."
+    },
+    "Costa Villa" : {
+        "image" : [
+
+        ],
+        "Location" : "Tanjung Bungah",
+        "Year" : "1996",
+        "Total floors" : "9",
+        "Floor-area" : "81 ~ 87 square meter, (penthouse) 111 ~ 176 square meter",
+        "Rental" : "RM 1,600 ~",
+        "Selling price" : "RM 810,000 ~",
+        "Facilities" : "Barbeque area, gym, swimming pool, 24-hours security",
+        "Remarks" : "Located in a quiet neighborhood, Straits Quay, banks and hawker center are within walking distance"
+    }
+}

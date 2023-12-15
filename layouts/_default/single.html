@@ -1,0 +1,74 @@
+{{define "main"}}
+{{ $title := .Title }}
+{{ $description := .Params.description }}
+{{ $image := .Params.image }}
+{{ $date := .Date }}
+{{ $author := .Params.author }}
+{{ $categories := .Params.categories }}
+{{ $tags := .Params.tags }}
+
+<header class="site-header d-flex flex-column justify-content-center align-items-center">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+
+            <div class="col-lg-5 col-12 mb-5">
+                <h2 class="text-black">About {{ $title}}</h2>
+
+                <div class="d-flex align-items-center mt-5">
+                    <a href="#topics-detail" class="btn custom-btn custom-border-btn smoothscroll me-4">Read
+                        More</a>
+                </div>
+            </div>
+
+            <!--
+            <div class="col-lg-5 col-12">
+                <div class="topics-detail-block bg-white shadow-lg">
+                    <img src="/static/images/logo/MM2H-Logo.png" class="topics-detail-block-image img-fluid">
+                </div>
+            </div>
+        -->
+        </div>
+    </div>
+</header>
+
+<section class="topics-detail-section section-padding" id="topics-detail">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-12">
+                {{/* IF TOPIC IS MM2H, Shows MM2H Content */}}
+                {{ if eq .Params.topic "MM2H" }}
+                {{.Content}}
+                {{partial "blog/mm2hvisa.html"}}
+
+
+                {{/* IF TOPIC PAGE IS SMM2H, Shows content from content/blog/smm2hvisa.md */}}
+                {{else if eq .Params.topic "SMM2H"}}
+                {{.Content}}
+                {{partial "blog/smm2hvisa.html"}}}
+
+
+                {{/* IF THE TOPIC IS PET, Shows content from content/blog/pet.md */}}
+                {{ else if eq .Params.topic "pet"}}
+                {{.Content}}
+                {{partial "blog/pet.html"}}
+
+
+                {{ else if eq .Params.topic "malaysia"}}
+                {{ partial "blog/malaysia.html" .RawContent }}
+
+                {{ else if eq .Params.topic "penang"}}
+                {{ partial "blog/penang.html" .RawContent}}
+
+                {{ else if eq .Params.topic "condo"}}
+                {{.Content}}
+                {{ partial "blog/condo.html"}}
+
+                {{end}}
+
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+{{ end }}

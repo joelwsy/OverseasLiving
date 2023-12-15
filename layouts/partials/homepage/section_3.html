@@ -1,0 +1,41 @@
+<section class="timeline-section section-padding" id="section_3">
+    <div class="section-overlay"></div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12 text-center">
+                <h2 class="text-black mb-4">(MM2H) APPLICATION FLOW</h1>
+            </div>
+
+            <div class="col-lg-10 col-12 mx-auto">
+                <div class="timeline-container">
+                    <ul class="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
+                        <div class="list-progress">
+                            <div class="inner"></div>
+                        </div>
+
+                        {{ range $item := . }}
+                        <li>
+                            <h4 class="text-black mb-3">{{ $item.title }}</h4>
+
+                            <p class="text-black">{{ $item.description }}</p>
+
+                            <div class="icon-holder">
+                                <i class="{{ $item.icon }}"></i>
+                            </div>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-12 text-center mt-5">
+                <p class="text-black">
+                    Want to learn more?
+                    <a href="#" class="btn custom-btn custom-border-btn ms-3">Check the requirements</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

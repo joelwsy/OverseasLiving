@@ -1,0 +1,83 @@
+<div class="pet-card">
+    <div class="pet-card-details">
+        <div class="pet-button-container">
+            <button class="pet-button selected">
+                IMPORT
+            </button>
+            <button class="pet-button">
+                EXPORT
+            </button>
+        </div>
+
+        <!-- !! Button's javascript in custom.js -->
+        <div class="import-pet-div" style="display: block;">
+            <h5 class="pet-text-title">IMPORTATION for PETS</h5>
+            <div class="pet-text-body">
+                {{$steps := getJSON "data/blog/pet/importpet.json"}}
+                {{ range $key, $value := $steps }}
+                <h6>{{.step}}</h6>
+                {{ if eq (printf "%T" .description) "string" }}
+                <p>{{ .description }}</p>
+                {{ else }}
+                <ul>
+                    {{ range .description }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+                {{ end }}
+
+                <h6>{{ $steps.note.title }}
+                    <ol>
+                        {{ range $steps.note.description }}
+                        <li>{{ . }}</li>
+                        {{ end }}
+                        <div class="row">
+                            {{ $mid := div (len $steps.note.countries) 2 | math.Floor }}
+                            <div class="col-lg-6">
+                                <ul>
+                                    {{ range $index, $country := first $mid $steps.note.countries }}
+                                    <li>{{ $country }}</li>
+                                    {{ end }}
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    {{ range $index, $country := after $mid $steps.note.countries }}
+                                    <li>{{ $country }}</li>
+                                    {{ end }}
+                                </ul>
+                            </div>
+                        </div>
+                    </ol>
+            </div>
+        </div>
+
+        <div class="export-pet-div" style="display: none;">
+            <h5 class="pet-text-title">EXPORTATION for PETS</h5>
+            <p class="pet-text-body">
+            <div class="pet-text-body">
+                {{$steps := getJSON "data/blog/pet/exportpet.json"}}
+                {{ range $key, $value := $steps }}
+                <h6>{{.step}}</h6>
+                {{ if eq (printf "%T" .description) "string" }}
+                <p>{{ .description }}</p>
+                {{ else }}
+                <ul>
+                    {{ range .description }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+                {{ end }}
+
+            </div>
+            </p> 
+        </div>
+
+
+    </div>
+    <button class="pet-card-button">
+        <strong>Inquiry Now </strong>
+    </button>
+</div>

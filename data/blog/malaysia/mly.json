@@ -1,0 +1,28 @@
+{
+    "div": {
+        "Multiculture": {
+            "heading": "CULTURAL DIVERSITY",
+            "heading2": "",
+            "description": "Experience a kaleidoscope of traditions and flavors in Malaysia, where the vibrant tapestry of Malay, Chinese, and Indian cultures creates a unique and enriching daily life.",
+            "image": [
+                "/images/malaysia/multiculture.png"
+            ]
+        },
+        "Nature": {
+            "heading": "NATURE",
+            "heading2": "",
+            "description": "Malaysia is a country of contrasts, bathed in the warm tropical sun, endowed with 85,000 km of coastline, several historic cities, a unique cultural mix, a string of cool hill resorts, the world’s oldest rainforest, and Southeast Asia’s highest mountain.",
+            "image": [
+                "/images/malaysia/nationalpark.jpg"
+            ]
+        },
+        "Scenery": {
+            "heading": "SCENERY",
+            "heading2": "",
+            "description": "Malaysia is a country of contrasts, bathed in the warm tropical sun, endowed with 85,000 km of coastline, several historic cities, a unique cultural mix, a string of cool hill resorts, the world’s oldest rainforest, and Southeast Asia’s highest mountain.",
+            "image": [
+                "/images/malaysia/scenery.jpg"
+            ]
+        }
+    }
+}
