@@ -1,32 +1,32 @@
+<style>
+    img {
+        max-width: 300px;
+        display: flexbox;
+    }
+
+    div.condo {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .condo {
+        border: 1px solid black;
+        height: auto;
+        display: inline-block;
+    }
+
+    .image-container {
+        float: left;
+        width: 30%;
+    }
+
+    td {
+        text-align: left;
+    }
+</style>
+
 <section>
-
-    <style>
-        img {
-            max-width: 300px;
-            display: flexbox;
-        }
-
-        div.condo {
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-
-        .condo {
-            border: 1px solid black;
-            height: auto;
-            display: inline-block;
-        }
-
-        .image-container {
-            float: left;
-            width: 30%;
-        }
-
-        td {
-            text-align: left;
-        }
-    </style>
 
     {{$data := getJSON "data/blog/property/condo.json"}}
     {{ range $name, $value := $data }}
