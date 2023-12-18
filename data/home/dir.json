@@ -85,7 +85,7 @@
                 "image": "images/icons/condo.svg"
             },
             {
-                "link": "topics-detail.html",
+                "link": "/realestate/",
                 "title": "Real Estate",
                 "description": "Lorem Ipsum dolor sit amet consectetur",
                 "image": "images/icons/house.svg"

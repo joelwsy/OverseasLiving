@@ -1,0 +1,130 @@
+<link href="{{ "css/malaysia.css" | absURL }}" rel="stylesheet">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+{{ $data := getJSON "data/blog/property/estate.json" }}
+{{ $sections := .RawContent }}
+{{ if in .RawContent "<!-- split -->" }}
+{{ $sections = split .RawContent "<!-- split -->" }}
+{{ end }}
+
+<style>
+    .slick-prev,
+    .slick-next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .slick-prev {
+        left: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .slick-next {
+        right: 0;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .slick-prev:hover,
+    .slick-next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .slick-slider {
+        position: relative;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .slick-list {
+        overflow: visible;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 200,
+            'opsz' 20
+    }
+
+    #leftbut {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0%, -50%);
+        z-index: 2;
+        background-color: rgba(253, 253, 253, 0.626);
+        /* Black background with 50% transparency */
+        padding: 10px;
+    }
+
+    #rightbut {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(0%, -50%);
+        z-index: 2;
+        background-color: rgba(253, 253, 253, 0.626);
+        /* Black background with 50% transparency */
+        padding: 10px;
+    }
+</style>
+
+<script>
+    $(document).ready(function () {
+        $('.slick-slider').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: '<div class="slick-prev"><span class="material-symbols-outlined">arrow_back_ios</span></div>',
+            nextArrow: '<div class="slick-next"><span class="material-symbols-outlined">arrow_forward_ios</span></div>'
+        });
+    });
+</script>
+
+<section class="mly" style="text-align: justify;">
+    {{ $counter := 0 }}
+    {{ range $key, $value := $data }}
+    <div class="mly-title">
+        <!-- markdown content here -->
+        {{ with index $sections $counter }}
+        {{ . | markdownify }}
+        {{ end }}
+    </div>
+    <div class="mly-showcase slick-slider">
+        {{ range $value.image }}
+        <div>
+            <img src="{{ . }}">
+        </div>
+        {{ end }}
+    </div>
+
+    {{ $counter = add $counter 1 }}
+    {{ end }}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.slick-slider').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                prevArrow: '<span class="material-symbols-outlined" id="leftbut">arrow_back_ios</span>',
+                nextArrow: '<span class="material-symbols-outlined" id="rightbut">arrow_forward_ios</span>'
+            });
+        });
+    </script>
+</section>

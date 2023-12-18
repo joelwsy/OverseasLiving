@@ -10,7 +10,7 @@ title = 'Overseas Living'
     weight = 1
 
     [[menu.main]]
-    name = 'Content'
+    name = 'Services & Content'
     url = '#content'
     weight = 2
 
