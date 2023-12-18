@@ -15,3 +15,48 @@ Our CEO, Ms Jessie and her team provide professional real estate support from re
 We believe that nobody knows Penang better than a Penangite! Do feel free to drop us a mail to find out more.
 
 <!-- split -->
+
+###### Floor Area : 
+
+* 128 ~ 153 square meter
+
+###### Facilities :
+
+* Clubhouse
+* Barbeque area
+* Children playground
+* Gym
+* Swimming pool
+* 24-hours security
+
+###### Rental :
+
+* RM 1,800~
+
+###### Selling Price :
+
+* RM 565,000~
+
+
+<!-- split -->
+
+###### Floor Area :
+
+* 45 ~ 108 square meter
+
+###### Facilities :
+
+* Swimming pool
+* gym
+
+
+
+| Year | 2015 |
+| ---------- | ---------- |
+| Total floor | 26 |
+| Floor Area | 128 ~ 153 square meter |
+| Rental | RM 1,800~ |
+| Selling Price | RM 565,000~ |
+| Facilities | Clubhouse, barbeque area, children playground, gym, swimming pool 24-hours security |
+| Remarks | Near the Sunshine Square and Queensbay mall, Few mins drive to Penang Bridge and the Penang International Airport" |
+<!-- split -->
