@@ -9,27 +9,21 @@
         ]
     },
     "2" : {
-        "name" : "The Tamarind",
-        "location" : "Pulau Tikus",
+        "name" : "118 @ ISLAND PLAZA",
+        "location" : "Tanjung Tokong",
+        "remarks" : "Formerly Island Plaza office building. Bus stop, supermarket, shopping mall, restaurants and hawker center are within walking distance",
         "image" : [
             "https://my1-cdn.pgimgs.com/listing/38418817/UPHO.216786277.V800/Tribeca-Bukit-Bintang-KL-City-Malaysia.jpg",
             "https://my1-cdn.pgimgs.com/listing/38418817/UPHO.216786278.V800/Tribeca-Bukit-Bintang-KL-City-Malaysia.jpg"
         ]
     },
     "3" : {
-        "name" : "The Tamarind",
-        "location" : "Pulau Tikus",
+        "name" : "BAYSWATER",
+        "location" : "Gelugor",
+        "remarks" : "Located next to Tesco and E-Gate Complex, only 3-mins drive to Penang Bridge",
         "image" : [
-            "https://my1-cdn.pgimgs.com/listing/38418817/UPHO.216786277.V800/Tribeca-Bukit-Bintang-KL-City-Malaysia.jpg",
-            "https://my1-cdn.pgimgs.com/listing/38418817/UPHO.216786278.V800/Tribeca-Bukit-Bintang-KL-City-Malaysia.jpg"
-        ]
-    },
-    "4" : {
-        "name" : "The Tamarind",
-        "location" : "Pulau Tikus",
-        "image" : [
-            "https://my1-cdn.pgimgs.com/listing/38418817/UPHO.216786277.V800/Tribeca-Bukit-Bintang-KL-City-Malaysia.jpg",
-            "https://my1-cdn.pgimgs.com/listing/38418817/UPHO.216786278.V800/Tribeca-Bukit-Bintang-KL-City-Malaysia.jpg"
+            "https://sg1-cdn.pgimgs.com/projectnet-project/734/ZPPHO.95754111.R800X800.jpg",
+            "https://sg1-cdn.pgimgs.com/projectnet-project/734/ZPPHO.95754112.R800X800.jpg"
         ]
     }
 }

@@ -16,11 +16,11 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 
-###### Floor Area : 
+###### Floor Area
 
 * 128 ~ 153 square meter
 
-###### Facilities :
+###### Facilities
 
 * Clubhouse
 * Barbeque area
@@ -29,34 +29,53 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 * Swimming pool
 * 24-hours security
 
-###### Rental :
+###### Rental
 
 * RM 1,800~
 
-###### Selling Price :
+###### Selling Price
 
 * RM 565,000~
 
-
 <!-- split -->
 
-###### Floor Area :
+###### Floor Area
 
 * 45 ~ 108 square meter
 
-###### Facilities :
+###### Facilities
 
 * Swimming pool
 * gym
 
+###### Rental
 
+* RM 2,500 ~
 
-| Year | 2015 |
-| ---------- | ---------- |
-| Total floor | 26 |
-| Floor Area | 128 ~ 153 square meter |
-| Rental | RM 1,800~ |
-| Selling Price | RM 565,000~ |
-| Facilities | Clubhouse, barbeque area, children playground, gym, swimming pool 24-hours security |
-| Remarks | Near the Sunshine Square and Queensbay mall, Few mins drive to Penang Bridge and the Penang International Airport" |
+###### Selling Price
+
+* RM 496,000 ~
+
 <!-- split -->
+
+###### Floor Area
+
+* 106 ~ 152 square meter
+
+###### Facilities
+
+* Swimming pool
+* jacuzzi
+* gym
+* playground
+* basketball court
+* tennis courts
+* 24-hours security
+
+###### Rental
+
+* RM 2,200 ~
+
+###### Selling Price
+
+* RM 900,000 ~
