@@ -95,7 +95,6 @@
     text-align: center;
     box-shadow: 0 10px 20px 0 rgba(32, 32, 36, 0.241);
     width: 45%;
-    max-width: 90%;
 }
 
 .card-condo:hover {
@@ -180,4 +179,30 @@
 
 .condo-details {
     text-align: left !important;
+}
+
+.expand-button {
+    position: absolute;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 600px) {
+    /* The button is displayed on screens smaller than 600px */
+    .expand-button {
+        display: block;
+    }
+
+    /* The card expands when the button is clicked */
+    .card-condo:active {
+        width: 100%;
+    }
 }

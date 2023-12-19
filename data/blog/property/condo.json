@@ -1,29 +1,46 @@
-{
-    "1" : {
-        "name" : "1 Sky",
-        "location" : "Bayan Lepas",
-        "remarks" : "Near the Sunshine Square and Queensbay mall, Few mins drive to Penang Bridge and the Penang International Airport",
-        "image" : [
-            "https://my1-cdn.pgimgs.com/project-listing-project/31994700/PLPHO.214817332.V800/Setia-V-Residences-Georgetown-Malaysia.jpg",
-            "https://my1-cdn.pgimgs.com/project-listing-project/31994700/PLPHO.214817610.V800/Setia-V-Residences-Georgetown-Malaysia.jpg"
-        ]
-    },
-    "2" : {
-        "name" : "118 @ ISLAND PLAZA",
-        "location" : "Tanjung Tokong",
-        "remarks" : "Formerly Island Plaza office building. Bus stop, supermarket, shopping mall, restaurants and hawker center are within walking distance",
-        "image" : [
-            "https://my1-cdn.pgimgs.com/listing/38418817/UPHO.216786277.V800/Tribeca-Bukit-Bintang-KL-City-Malaysia.jpg",
-            "https://my1-cdn.pgimgs.com/listing/38418817/UPHO.216786278.V800/Tribeca-Bukit-Bintang-KL-City-Malaysia.jpg"
-        ]
-    },
-    "3" : {
-        "name" : "BAYSWATER",
-        "location" : "Gelugor",
-        "remarks" : "Located next to Tesco and E-Gate Complex, only 3-mins drive to Penang Bridge",
-        "image" : [
-            "https://sg1-cdn.pgimgs.com/projectnet-project/734/ZPPHO.95754111.R800X800.jpg",
-            "https://sg1-cdn.pgimgs.com/projectnet-project/734/ZPPHO.95754112.R800X800.jpg"
-        ]
+    {
+        "1 SKY  ": {
+            "name": "1 Sky",
+            "location": "Bayan Lepas",
+            "remarks": "Near the Sunshine Square and Queensbay mall, Few mins drive to Penang Bridge and the Penang International Airport",
+            "image": [
+                "https://my1-cdn.pgimgs.com/project-listing-project/31994700/PLPHO.214817332.V800/Setia-V-Residences-Georgetown-Malaysia.jpg",
+                "https://my1-cdn.pgimgs.com/project-listing-project/31994700/PLPHO.214817610.V800/Setia-V-Residences-Georgetown-Malaysia.jpg"
+            ]
+        },
+        "2": {
+            "118 @ ISLAND PLAZA": "118 @ ISLAND PLAZA",
+            "location": "Tanjung Tokong",
+            "remarks": "Formerly Island Plaza office building. Bus stop, supermarket, shopping mall, restaurants and hawker center are within walking distance",
+            "image": [
+                "https://sg1-cdn.pgimgs.com/projectnet-project/153816/ZPPHO.128009628.R800X800.jpg"
+            ]
+        },
+        "BAYSWATER": {
+            "name": "BAYSWATER",
+            "location": "Gelugor",
+            "remarks": "Located next to Tesco and E-Gate Complex, only 3-mins drive to Penang Bridge",
+            "image": [
+                "https://sg1-cdn.pgimgs.com/projectnet-project/734/ZPPHO.95754111.R800X800.jpg",
+                "https://sg1-cdn.pgimgs.com/projectnet-project/734/ZPPHO.95754112.R800X800.jpg"
+            ]
+        },
+        "BELLISA COURT": {
+            "name": "BELLISA COURT",
+            "location": "Pulau Tikus",
+            "remarks": "Morning market, banks, post office, hawker center, Gurney Plaza and Gurney Paragon are within walking distance",
+            "image": []
+        },
+        "BIRCH REGENCY @ PENANG TIMES SQUARE": {
+            "name": "BIRCH REGENCY @ PENANG TIMES SQUARE",
+            "location": "Georgetown",
+            "remarks": "Food court and McDonalds are right below the condominium",
+            "image": []
+        },
+        "COASTAL TOWER": {
+            "name": "COASTAL TOWER",
+            "location": "Tanjung Bungah",
+            "remarks": "10 ~15 mins drive to shopping center, restaurants, banks and Gurney area; some units can enjoy great sea view from balconies",
+            "image": []
+        }
     }
-}
