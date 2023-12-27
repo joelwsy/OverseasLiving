@@ -1,3 +1,4 @@
+<link href="{{ "css/malaysia.css" | absURL }}" rel="stylesheet">
 <section class="timeline-section section-padding" id="section_3">
     <div class="section-overlay"></div>
 
@@ -5,37 +6,40 @@
         <div class="row">
 
             <div class="col-12 text-center">
-                <h2 class="text-black mb-4">(MM2H) APPLICATION FLOW</h1>
+                <h2 class="text-black mb-4">Why Malaysia?</h1>
             </div>
 
-            <div class="col-lg-10 col-12 mx-auto">
-                <div class="timeline-container">
-                    <ul class="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
-                        <div class="list-progress">
-                            <div class="inner"></div>
-                        </div>
+            {{ $data := getJSON "data/blog/malaysia/mly.json" }}
 
-                        {{ range $item := . }}
-                        <li>
-                            <h4 class="text-black mb-3">{{ $item.title }}</h4>
+            {{ $markdownFile := .Site.GetPage "page" "content/blog/malaysia.md" }}
+            {{ $contentParts := split $markdownFile.Content "<!-- split -->" }}
 
-                            <p class="text-black">{{ $item.description }}</p>
+            {{ $counter := 1 }}
 
-                            <div class="icon-holder">
-                                <i class="{{ $item.icon }}"></i>
-                            </div>
-                        </li>
-                        {{ end }}
-                    </ul>
+            {{ range $key, $value := $data.div }}
+            <section class="mly" style="text-align: justify;">
+                <div class="mly-title">
+                    <h3>{{ $value.heading }}</h3>
+                    <h2>{{ $value.heading2 }}</h2>
+                    <h6>{{ $value.description }}</h6>
                 </div>
-            </div>
-            
-            <div class="col-12 text-center mt-5">
-                <p class="text-black">
-                    Want to learn more?
-                    <a href="#" class="btn custom-btn custom-border-btn ms-3">Check the requirements</a>
-                </p>
-            </div>
+                <div class="mly-showcase">
+                    {{ range $index, $image := $value.image }}
+                    <img src="{{ $image }}">
+                    {{ end }}
+                </div>
+
+                <div class="mly">
+                    <p>
+                        {{ index $contentParts $counter | markdownify }}
+                    </p>
+                </div>
+
+            </section>
+
+            {{ $counter = add $counter 1}}
+            {{ end }}
+
         </div>
     </div>
 </section>

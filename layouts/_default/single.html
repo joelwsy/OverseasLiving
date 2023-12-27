@@ -30,7 +30,9 @@
                 {{/* IF TOPIC IS MM2H, Shows MM2H Content */}}
                 {{ if eq .Params.topic "MM2H" }}
                 {{.Content}}
-                {{partial "blog/mm2hvisa.html"}}
+                {{ with .Site.Data.home.mm2hflow}}
+                {{partial "blog/mm2hvisa.html" .}}
+                {{end}}
 
                 {{/* IF TOPIC PAGE IS SMM2H, Shows content from content/blog/smm2hvisa.md */}}
                 {{else if eq .Params.topic "SMM2H"}}
@@ -42,10 +44,6 @@
                 {{ else if eq .Params.topic "pet"}}
                 {{.Content}}
                 {{partial "blog/pet.html"}}
-
-
-                {{ else if eq .Params.topic "malaysia"}}
-                {{ partial "blog/malaysia.html" .RawContent }}
 
                 {{ else if eq .Params.topic "penang"}}
                 {{ partial "blog/penang.html" .RawContent}}

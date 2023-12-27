@@ -1,10 +1,4 @@
 {
-    "1_abt_malaysia" : {
-        "id" : "abt_malaysia",
-        "title" : "Why Malaysia?",
-        "weight" : 2
-    },
-
     "2_aboutpg" : {
         "id" : "aboutpg",
         "title" : "About Penang",

@@ -25,32 +25,6 @@
             }
         ]
     },
-    "2_malaysia": {
-        "id": "abt_malaysia-tab-pane",
-        "role": "tabpanel",
-        "ariaLabelledby": "malaysia-tab",
-        "tabIndex": "2",
-        "blocks": [
-            {
-                "link": "blog/malaysia/",
-                "title": "Low Cost of Living",
-                "description": "Malaysia is one of the most cost-effective countries to live in",
-                "image": "images/icons/piggybank.svg"
-            },
-            {
-                "link": "blog/malaysia#education/",
-                "title": "Quality Education",
-                "description": "Malaysia has a wide range of international and private schools",
-                "image": "images/icons/school.svg"
-            },
-            {
-                "link": "blog/malaysia#culture/",
-                "title": "Culture",
-                "description": "Malaysia is a melting pot of cultures and religions",
-                "image": "images/icons/diversity.svg"
-            }
-        ]
-    },
     "3_aboutpg": {
         "id": "aboutpg-tab-pane",
         "role": "tabpanel",
