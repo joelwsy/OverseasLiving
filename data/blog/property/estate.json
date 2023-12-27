@@ -1,13 +1,13 @@
 {
-    "RP-T" : {
+    "3_RP-T" : {
         "title" : "Resident Pass-Talent (RP-T)",
         "description" : "Resident Pass-Talent (RP-T) offers talented expatriates permission to work and stay in Malaysia for up to 10 years! RP-T was first introduced in 2011, with the aim to attract and retain top talent in the country."
     },
-    "Student Pass" : {
+    "1_Student Pass" : {
         "title" : "Student Pass",
         "description" : "Student Pass is a type of visa issued to foreign students who are enrolled in an educational institution in Malaysia at the primary, secondary, or tertiary level."
     },
-    "Guardian Pass" : {
+    "2_Guardian Pass" : {
         "title" : "Guardian Pass",
         "description" : "Guardian Pass is a type of visa issued to a foreigner who is a parent or guardian of a foreign student studying in Malaysia."
     }
