@@ -1,15 +1,15 @@
     {
-        "1 SKY  ": {
+        "1 SKY": {
             "name": "1 Sky",
             "location": "Bayan Lepas",
             "remarks": "Near the Sunshine Square and Queensbay mall, Few mins drive to Penang Bridge and the Penang International Airport",
             "image": [
-                "https://my1-cdn.pgimgs.com/project-listing-project/31994700/PLPHO.214817332.V800/Setia-V-Residences-Georgetown-Malaysia.jpg",
-                "https://my1-cdn.pgimgs.com/project-listing-project/31994700/PLPHO.214817610.V800/Setia-V-Residences-Georgetown-Malaysia.jpg"
+                "https://www.idealproperty.com.my/wp-content/uploads/2019/01/1-Sky-copy-2.jpg",
+                "https://www.homesagency2u.com/2021/Bayan-Baru/1-sky/1-sky2.jpg"
             ]
         },
-        "2": {
-            "118 @ ISLAND PLAZA": "118 @ ISLAND PLAZA",
+        "118 @ Island Plaza": {
+            "name": "118 @ ISLAND PLAZA",
             "location": "Tanjung Tokong",
             "remarks": "Formerly Island Plaza office building. Bus stop, supermarket, shopping mall, restaurants and hawker center are within walking distance",
             "image": [
@@ -29,13 +29,18 @@
             "name": "BELLISA COURT",
             "location": "Pulau Tikus",
             "remarks": "Morning market, banks, post office, hawker center, Gurney Plaza and Gurney Paragon are within walking distance",
-            "image": []
+            "image": [
+                "https://cdn.land.plus/photos/171290/view_bellisa-court.jpg",
+                "https://sg1-cdn.pgimgs.com/projectnet-project/895/ZPPHO.95754912.R550X550/Bellisa-Court-Georgetown-Malaysia.jpg"
+            ]
         },
         "BIRCH REGENCY @ PENANG TIMES SQUARE": {
             "name": "BIRCH REGENCY @ PENANG TIMES SQUARE",
             "location": "Georgetown",
             "remarks": "Food court and McDonalds are right below the condominium",
-            "image": []
+            "image": [
+                "https://img.iproperty.com.my/my-condo/640x640-fit/condolib/condominiums/1200/e35ec29f78f841e49678046cc853edb3.jpg"
+            ]
         },
         "COASTAL TOWER": {
             "name": "COASTAL TOWER",

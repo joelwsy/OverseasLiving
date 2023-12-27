@@ -1,0 +1,16 @@
+<link href="{{ "css/property.css" | absURL }}" rel="stylesheet">
+
+
+{{$data := getJSON "data/blog/property/estate.json"}}
+
+<div class="cards-container">
+    {{ range $key, $value := $data }}
+    <div class="card">
+        <div class="card-details">
+            <h6 class="text-title">{{ $value.title }}</h6>
+            <p class="text-body">{{ $value.description }}</p>
+        </div>
+        <button class="card-button">Inquiry</button>
+    </div>
+    {{ end }}
+</div>

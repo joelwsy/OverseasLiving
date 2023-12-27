@@ -1,76 +1,75 @@
-                {{/* MM2H FINANCIAL REQUIREMENT */}}
-                <table>
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th>AGE ABOVE 50 YEARS OLD</th>
-                            <th>AGE 35 TO 49 YEARS OLD</th>
-                        </tr>
-                        <thead>
-                        <tbody>
-                            <tr>
-                                <th>Liquid Assests</ths>
-                                <td>RM 1.5 MIL</td>
-                                <td>RM 1.5 MIL</td>
-                            </tr>
-                            <tr>
-                                <th>Income</th>
-                                <td>RM40K / Month</td>
-                                <td>RM40K / Month</td>
-                            </tr>
-                            <tr>
-                                <th>Fixed Deposit Upon Arrival</th>
-                                <td>RM 1 MIL</td>
-                                <td>RM 1 MIL</td>
-                            </tr>
-                            <tr>
-                                <th>Additional deposit per dependant</th>
-                                <td>-</td>
-                                <td>RM 50K</td>
-                            </tr>
-                            <tr>
-                                <th>Primary Finanical Proof</th>
-                                <td colspan="2" style="text-align: center;">Cash, Time deposit</td>
-                            </tr>
-                            <tr>
-                                <th>Secondary Finanical Proof</th>
-                                <td colspan="2" style="text-align: center;">Investment funds, bonds, and
-                                    insurance investment</td>
-                            </tr>
-                        </tbody>
-                </table>
+{{/* MM2H FINANCIAL REQUIREMENT */}}
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>AGE ABOVE 50 YEARS OLD</th>
+            <th>AGE 35 TO 49 YEARS OLD</th>
+        </tr>
+        <thead>
+        <tbody>
+            <tr>
+                <th>Liquid Assests</ths>
+                <td>RM 1.5 MIL</td>
+                <td>RM 1.5 MIL</td>
+            </tr>
+            <tr>
+                <th>Income</th>
+                <td>RM40K / Month</td>
+                <td>RM40K / Month</td>
+            </tr>
+            <tr>
+                <th>Fixed Deposit Upon Arrival</th>
+                <td>RM 1 MIL</td>
+                <td>RM 1 MIL</td>
+            </tr>
+            <tr>
+                <th>Additional deposit per dependant</th>
+                <td>-</td>
+                <td>RM 50K</td>
+            </tr>
+            <tr>
+                <th>Primary Finanical Proof</th>
+                <td colspan="2" style="text-align: center;">Cash, Time deposit</td>
+            </tr>
+            <tr>
+                <th>Secondary Finanical Proof</th>
+                <td colspan="2" style="text-align: center;">Investment funds, bonds, and
+                    insurance investment</td>
+            </tr>
+        </tbody>
+</table>
 
-                {{/* MM2H FAQ SECTION */}}
-                <section class="faq-section section-padding" id="section_4_MM2H">
-                    <div class="container">
-                        <div class="row" id="faqrow">
-                            <div class="col-lg-6 col-12" id="col-lg-6_MM2H">
-                                <h2 class="mb-4">Frequently Asked Questions</h2>
-                            </div>
+{{/* MM2H FAQ SECTION */}}
+<section class="faq-section section-padding" id="section_4_MM2H">
+    <div class="container">
+        <div class="row" id="faqrow">
+            <div class="col-lg-6 col-12" id="col-lg-6_MM2H">
+                <h2 class="mb-4">Frequently Asked Questions</h2>
+            </div>
 
-                            <div class="col-lg-6 col-12 m-auto" id="col-lg-6_MM2H">
-                                <div class="accordion" id="accordionExample">
-                                    {{ $faqs := getJSON "data/blog/mm2h/mm2hfaq.json" }}
-                                    {{ range $key, $value := $faqs }}
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="heading{{ $value.id }}">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse"
-                                                data-bs-target="#collapse{{ $value.collaspe }}" aria-expanded="true"
-                                                aria-controls="collapse{{ $value.collaspe }}">
-                                                {{ $value.question }}
-                                            </button>
-                                        </h2>
+            <div class="col-lg-6 col-12 m-auto" id="col-lg-6_MM2H">
+                <div class="accordion" id="accordionExample">
+                    {{ $faqs := getJSON "data/blog/mm2h/mm2hfaq.json" }}
+                    {{ range $key, $value := $faqs }}
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading{{ $value.id }}">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse{{ $value.collaspe }}" aria-expanded="true"
+                                aria-controls="collapse{{ $value.collaspe }}">
+                                {{ $value.question }}
+                            </button>
+                        </h2>
 
-                                        <div id="collapse{{ $value.collaspe }}" class="accordion-collapse collapse"
-                                            aria-labelledby="heading{{ $value.id }}" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                {{ $value.answer }}
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {{ end }}
-                                </div>
+                        <div id="collapse{{ $value.collaspe }}" class="accordion-collapse collapse"
+                            aria-labelledby="heading{{ $value.id }}" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                {{ $value.answer }}
                             </div>
                         </div>
-                </section>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+</section>

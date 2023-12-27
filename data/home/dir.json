@@ -6,21 +6,21 @@
         "tabIndex": "1",
         "blocks": [
             {
-                "link": "/mm2hvisa/",
+                "link": "blog/mm2hvisa/",
                 "title": "eMM2H VISA APPLICATION",
                 "description": "Malaysia My Second Home offers 10-years multiple social visit pass, with no minimum stay required!",
                 "image": "images/logo/MM2H-Logo.png"
             },
             {
-                "link": "/smm2hvisa/",
+                "link": "blog/smm2hvisa/",
                 "title": "SMM2H VISA APPLICATION",
-                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "description": "Sarawak, Malaysia My Second Home offers 10-years multiple social visit pass, with no minimum stay required!",
                 "image": "images/logo/SMM2H-Logo.png"
             },
             {
-                "link": "/pet/",
+                "link": "blog/pet/",
                 "title": "Export of Pets",
-                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "description": "Bringing Your Pets in or out of Malaysia",
                 "image": "images/icons/paw.png"
             }
         ]
@@ -32,21 +32,21 @@
         "tabIndex": "2",
         "blocks": [
             {
-                "link": "/malaysia/",
+                "link": "blog/malaysia/",
                 "title": "Low Cost of Living",
-                "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et earum exercitationem perferendis sint aperiam iusto, expedita accusamus minima ipsum assumenda! Facere doloribus id sint nostrum quidem, totam debitis repellendus in!",
+                "description": "Malaysia is one of the most cost-effective countries to live in",
                 "image": "images/icons/piggybank.svg"
             },
             {
-                "link": "/malaysia#education/",
+                "link": "blog/malaysia#education/",
                 "title": "Quality Education",
-                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "description": "Malaysia has a wide range of international and private schools",
                 "image": "images/icons/school.svg"
             },
             {
-                "link": "/malaysia#culture/",
+                "link": "blog/malaysia#culture/",
                 "title": "Culture",
-                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "description": "Malaysia is a melting pot of cultures and religions",
                 "image": "images/icons/diversity.svg"
             }
         ]
@@ -58,15 +58,15 @@
         "tabIndex": "3",
         "blocks": [
             {
-                "link": "/penang/",
+                "link": "blog/penang/",
                 "title": "Heritage",
-                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "description": "Where history is fused with modernity",
                 "image": "images/malaysia/temple.jpg"
             },
             {
-                "link": "/penang/",
+                "link": "blog/penang/",
                 "title": "Food",
-                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "description": "A vibrant food paradise",
                 "image": "images/malaysia/food.jpg"
             }
         ]
@@ -79,19 +79,19 @@
         "tabIndex": "4",
         "blocks": [
             {
-                "link": "/condo/",
+                "link": "blog/condo/",
                 "title": "Condominiums",
-                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "description": "Explore condominiums in Penang",
                 "image": "images/icons/condo.svg"
             },
             {
-                "link": "/realestate/",
-                "title": "Real Estate",
-                "description": "Lorem Ipsum dolor sit amet consectetur",
+                "link": "blog/expat/",
+                "title": "Properties Rental for Working Expatriates",
+                "description": "We are the specialists to make your home search a hassle free and comfortable journey!",
                 "image": "images/icons/house.svg"
             },
             {
-                "link": "topics-detail.html",
+                "link": "blog/realestate/",
                 "title": "Long & Short Stay",
                 "description": "Lorem Ipsum dolor sit amet consectetur",
                 "image": "images/icons/luggage.svg"
@@ -105,13 +105,13 @@
         "tabIndex": "5",
         "blocks": [
             {
-                "link": "topics-detail.html",
+                "link": "https://studyinpenang.com",
                 "title": "Study in Malaysia",
                 "description": "Lorem Ipsum dolor sit amet consectetur",
                 "image": "images/icons/malaysia-icon.png"
             },
             {
-                "link": "topics-detail.html",
+                "link": "https://studyinpenang.com",
                 "title": "Study outside of Malaysia",
                 "description": "Lorem Ipsum dolor sit amet consectetur",
                 "image": "images/icons/globe.svg"

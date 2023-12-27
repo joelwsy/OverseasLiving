@@ -31,6 +31,9 @@
                 {{ if eq .Params.topic "MM2H" }}
                 {{.Content}}
                 {{partial "blog/mm2hvisa.html"}}
+                {{ with .Site.Data.home.mm2hflow}}
+                {{partial "homepage/section_3.html" .}}
+                {{end}}
 
 
                 {{/* IF TOPIC PAGE IS SMM2H, Shows content from content/blog/smm2hvisa.md */}}
@@ -54,9 +57,12 @@
                 {{ else if eq .Params.topic "condo"}}
                 {{ partial "blog/condo.html" .}}
 
+                {{ else if eq .Params.topic "expat"}}
+                {{ .Content}}
+
                 {{ else if eq .Params.topic "estate"}}
                 {{ partial "blog/realestate.html" . }}
-                
+
                 {{end}}
 
             </div>

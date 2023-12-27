@@ -15,7 +15,7 @@ Our CEO, Ms Jessie and her team provide professional real estate support from re
 We believe that nobody knows Penang better than a Penangite! Do feel free to drop us a mail to find out more.
 
 <!-- split -->
-
+<!-- 1 SKY -->
 ###### Floor Area
 
 * 128 ~ 153 square meter
@@ -38,7 +38,7 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 * RM 565,000~
 
 <!-- split -->
-
+<!-- 118 @ ISLAND PLAZA -->
 ###### Floor Area
 
 * 45 ~ 108 square meter
@@ -57,7 +57,7 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 * RM 496,000 ~
 
 <!-- split -->
-
+<!-- BAYSWATER -->
 ###### Floor Area
 
 * 106 ~ 152 square meter
@@ -79,3 +79,29 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 ###### Selling Price
 
 * RM 900,000 ~
+
+<!-- split -->
+<!-- Bellisa Court -->
+
+###### Floor Area
+
+* 119 ~ 218 square meter
+
+###### Facilities
+
+* Gym
+* swimming pool
+* barbeque area
+* children’s playground
+* squash court
+* 24hours security
+
+###### Rental
+
+* RM 2,700 ~
+
+###### Selling price
+
+* RM 1,200,000 ~
+
+<!-- split -->
