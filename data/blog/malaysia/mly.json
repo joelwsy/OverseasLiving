@@ -1,27 +1,35 @@
 {
     "div": {
         "Multiculture": {
-            "heading": "CULTURAL DIVERSITY",
-            "heading2": "",
-            "description": "Experience a kaleidoscope of traditions and flavors in Malaysia, where the vibrant tapestry of Malay, Chinese, and Indian cultures creates a unique and enriching daily life.",
+            "heading": "affordable lifestyle",
+            "heading2": "LOW COST OF LIVING",
+            "description": "Affordable housing, budget-friendly street food, and cost-effective public transportation contribute to a comfortable lifestyle without breaking the bank.",
             "image": [
-                "/images/malaysia/multiculture.png"
+                "https://images.pexels.com/photos/259209/pexels-photo-259209.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             ]
         },
         "Nature": {
-            "heading": "NATURE",
-            "heading2": "",
-            "description": "Malaysia is a country of contrasts, bathed in the warm tropical sun, endowed with 85,000 km of coastline, several historic cities, a unique cultural mix, a string of cool hill resorts, the world’s oldest rainforest, and Southeast Asia’s highest mountain.",
+            "heading": "learn, explore, and grow",
+            "heading2": "QUALITY EDUCATION",
+            "description": "Malaysia's education system is a global standout, providing top-notch programs in English at affordable costs. It's an attractive destination for quality education in a diverse and vibrant setting.",
             "image": [
-                "/images/malaysia/nationalpark.jpg"
+                "https://images.pexels.com/photos/1205651/pexels-photo-1205651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             ]
         },
         "Scenery": {
-            "heading": "SCENERY",
-            "heading2": "",
-            "description": "Malaysia is a country of contrasts, bathed in the warm tropical sun, endowed with 85,000 km of coastline, several historic cities, a unique cultural mix, a string of cool hill resorts, the world’s oldest rainforest, and Southeast Asia’s highest mountain.",
+            "heading": "accessible, excellence, affordability",
+            "heading2": "QUALITY HEALTHCARE",
+            "description": "Malaysia's education system is a global standout, providing top-notch programs in English at affordable costs. It's an attractive destination for quality education in a diverse and vibrant setting.",
             "image": [
-                "/images/malaysia/scenery.jpg"
+                "https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            ]
+        },
+        "Culture":{
+            "heading": "harmony, diversity, unique blend",
+            "heading2": "QUALITY HEALTHCARE",
+            "description": "Malaysia's culture is a harmonious blend of Malay, Chinese, Indian, and indigenous influences, creating a rich tapestry of traditions, festivals, and diverse lifestyles.",
+            "image": [
+                "https://media.istockphoto.com/id/1165515554/photo/young-adult-celebrating-malaysia-independence-day.jpg?s=2048x2048&w=is&k=20&c=7EliD0MbnqMK6FMKZQnWCtGcIzLXr8x4-ZbnGC3J-Y4="
             ]
         }
     }

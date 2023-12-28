@@ -4,6 +4,7 @@ date = 2023-12-07T13:51:08+08:00
 draft = true
 
 topic = "pet"
+bgimg = "(../../static/images/malaysia/multiculture.png)"
 +++
 
 ### Traveling with Pets: Import and Export Guidelines

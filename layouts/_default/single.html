@@ -37,8 +37,9 @@
                 {{/* IF TOPIC PAGE IS SMM2H, Shows content from content/blog/smm2hvisa.md */}}
                 {{else if eq .Params.topic "SMM2H"}}
                 {{.Content}}
-                {{partial "blog/smm2hvisa.html"}}}
-
+                {{ with .Site.Data.home.mm2hflow}}
+                {{partial "blog/mm2hvisa.html" .}}
+                {{end}}
 
                 {{/* IF THE TOPIC IS PET, Shows content from content/blog/pet.md */}}
                 {{ else if eq .Params.topic "pet"}}

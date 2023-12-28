@@ -4,6 +4,7 @@ date = 2023-12-15T11:07:22+08:00
 draft = true
 
 topic = "condo" 
+bgimg = "(../../static/images/malaysia/multiculture.png)"
 +++
 
 ##### Condominiums in Penang

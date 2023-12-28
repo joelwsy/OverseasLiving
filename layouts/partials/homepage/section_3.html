@@ -11,7 +11,7 @@
 
             {{ $data := getJSON "data/blog/malaysia/mly.json" }}
 
-            {{ $markdownFile := .Site.GetPage "page" "content/blog/malaysia.md" }}
+            {{ $markdownFile := .Site.GetPage "page" "blog/malaysia" }}
             {{ $contentParts := split $markdownFile.Content "<!-- split -->" }}
 
             {{ $counter := 1 }}
@@ -19,7 +19,7 @@
             {{ range $key, $value := $data.div }}
             <section class="mly" style="text-align: justify;">
                 <div class="mly-title">
-                    <h3>{{ $value.heading }}</h3>
+                    <h4>{{ $value.heading }}</h4>
                     <h2>{{ $value.heading2 }}</h2>
                     <h6>{{ $value.description }}</h6>
                 </div>

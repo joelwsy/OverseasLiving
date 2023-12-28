@@ -7,21 +7,8 @@ topic = "MM2H"
 
 description = "All you need to know about MM2H's Visa"
 
-[[faqs]]
-question = "MM2H Renenwal"
-answer = "MM2H Visa is renewable after 10 years. It is advisable to start the renewal process 3 months prior to the visa expiry. The whole process takes 30-60 working days."
+bgimg = "(../../static/images/malaysia/multiculture.png)"
 
-[[faqs]]
-question = "MM2H EXTENSION"
-answer = "If you need to replace a passport, you need to apply for transfer of visa from old to new passport. During the transfer process, if the first visa given is less than 10 years, you can claim the balance visa up to 10 years (subject to validity of passport). The whole process takes 1-3 working days."
-
-[[faqs]]
-question = "MM2H VISA TERMINATION"
-answer = "MM2H Visa holders need to terminate their MM2H Visas if they decided to return to their home country. The visa holders must be personally in Malaysia and surrender their passports to MM2H consultant to process the termination at immigration office. A letter addressed to the bank will be given to the visa holders, to do the withdrawal their MM2H Fixed Deposit, after the termination of MM2H visa. The whole process takes 5-7 working days."
-
-[[faqs]]
-question = "WITHDRAWAL OF MM2H FIXED DEPOSIT"
-answer = "MM2H Homers may apply to withdraw part of MM2H Fixed Deposit for the purchase of property or vehicle, medical treatment and children’s education. The whole process takes 5-7 working days. Partial Withdrawal of Fixed Deposit under MM2H Program Above 50 years old : maximum withdrawal RM 50K Below 50 years old: maximum withdrawal RM 150K"
 +++
 
 ### Why Malaysia?

@@ -6,6 +6,7 @@ draft = true
 topic = "SMM2H"
 
 description = "All you need to know about SMM2H's Visa"
+bgimg = "(../../static/images/malaysia/multiculture.png)"
 
 [[faqs]]
 question = "S-MM2H Renenwal"
@@ -45,7 +46,11 @@ Living in Sarawak provides an opportunity to experience the rich cultural herita
 
 ### Requirements of S-MM2H Visa
 
-* Must be at least 21 years old
-* Possess good character and a clean criminal record
-* Be in good health and have adequate medical insurance coverage
-* Meet the **financial requirements** set by the Sarawak Tourism Board
+* ###### Must be at least 21 years old
+
+* ###### Possess good character and a clean criminal record
+
+* ###### Be in good health and have adequate medical insurance coverage
+
+* ###### Meet the **financial requirements** set by the Sarawak Tourism Board
+

@@ -4,6 +4,7 @@ date = 2023-12-15T09:52:55+08:00
 draft = true
 
 topic = "penang" 
+bgimg = "(../../static/images/malaysia/multiculture.png)"
 +++
 
 ###### Penang : The Pearl Oreintal
@@ -17,3 +18,5 @@ Penang's rich heritage is evident in its UNESCO-listed George Town, where coloni
 <!-- split -->
 
 Penang's food scene is a delightful journey through a diverse culinary landscape. Known as the "Food Paradise of Malaysia," the city offers an array of iconic dishes reflecting Malay, Chinese, Indian, and Peranakan influences. From the savory Char Kway Teow to the flavorful Nasi Kandar and the tangy Penang Laksa, every bite tells a story of cultural fusion. Street food enthusiasts can explore bustling markets like Gurney Drive and Kimberly Street, where the aroma of sizzling woks and the vibrant colors of local delicacies create an unforgettable sensory experience. Penang's culinary heritage is not just about sustenance; it's a celebration of flavors that have evolved over generations, making it a must-visit destination for food connoisseurs seeking an authentic and diverse gastronomic adventure.
+
+<!-- split -->

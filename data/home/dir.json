@@ -21,7 +21,7 @@
                 "link": "blog/pet/",
                 "title": "Export of Pets",
                 "description": "Bringing Your Pets in or out of Malaysia",
-                "image": "images/icons/paw.png"
+                "image": "images/icons/paw.svg"
             }
         ]
     },
@@ -35,13 +35,13 @@
                 "link": "blog/penang/",
                 "title": "Heritage",
                 "description": "Where history is fused with modernity",
-                "image": "images/malaysia/temple.jpg"
+                "image": "https://static.thenounproject.com/png/194301-200.png"
             },
             {
                 "link": "blog/penang/",
                 "title": "Food",
                 "description": "A vibrant food paradise",
-                "image": "images/malaysia/food.jpg"
+                "image": "https://cdn-icons-png.flaticon.com/512/1790/1790971.png"
             }
         ]
     },
