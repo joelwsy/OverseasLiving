@@ -91,5 +91,19 @@
                 "image": "images/icons/globe.svg"
             }
         ]
+    },
+    "6_news" : {
+        "id": "news-tab-pane",
+        "role": "tabpanel",
+        "ariaLabelledby": "news-tab",
+        "tabIndex": "6",
+        "blocks": [
+            {
+                "link": "blog/news/",
+                "title": "Links to News",
+                "description": "Check out the latest news in regarding MM2H",
+                "image": "images/icons/news.svg"
+            }
+        ]
     }
 }

@@ -15,5 +15,10 @@
         "id" : "education",
         "title" : "Education",
         "weight" : 5
+    },
+    "5_news" : {
+        "id" : "news",
+        "title" : "News",
+        "weight" : 6
     }
 }

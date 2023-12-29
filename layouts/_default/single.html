@@ -61,6 +61,11 @@
                 {{ else if eq .Params.topic "inquiry"}}
                 {{ .Content }}
                 {{ partial "blog/inquiry.html"}}
+                
+                {{ else if eq .Params.topic "news"}}
+                {{ .Content}}
+                {{ partial "blog/news.html"}}
+                
                 {{end}}
 
             </div>
