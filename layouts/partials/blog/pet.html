@@ -55,7 +55,7 @@
 
         <div class="export-pet-div" style="display: none;">
             <h5 class="pet-text-title">EXPORTATION for PETS</h5>
-            <p class="pet-text-body">
+            
             <div class="pet-text-body">
                 {{$steps := getJSON "data/blog/pet/exportpet.json"}}
                 {{ range $key, $value := $steps }}
@@ -72,12 +72,14 @@
                 {{ end }}
 
             </div>
-            </p> 
+            
         </div>
 
 
     </div>
     <button class="pet-card-button">
+        <a href="/blog/inquiry/">
         <strong>Inquiry Now </strong>
+        </a>
     </button>
 </div>

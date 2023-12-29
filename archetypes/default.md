@@ -4,7 +4,4 @@ date = {{ .Date }}
 draft = true
 
 topic = "{{ replace .File.Dir "/" "" }}" 
-
-bgimg = ""
-
 +++

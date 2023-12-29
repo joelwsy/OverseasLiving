@@ -58,6 +58,9 @@
                 {{ else if eq .Params.topic "estate"}}
                 {{ partial "blog/realestate.html" . }}
 
+                {{ else if eq .Params.topic "inquiry"}}
+                {{ .Content }}
+                {{ partial "blog/inquiry.html"}}
                 {{end}}
 
             </div>
