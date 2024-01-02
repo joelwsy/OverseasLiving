@@ -7,16 +7,18 @@ topic = "penang"
 bgimg = "(../../static/images/malaysia/multiculture.png)"
 +++
 
-###### Penang : The Pearl Oreintal
+###### What pops into your mind when you first heard about "Penang"? Delicacies? Heritage architecture? Penang Hill, seasides, and national park?
 
-Embark on an exhilarating journey to Penang, Malaysia's jewel in the north! Nestled in the heart of Southeast Asia, Penang beckons with its rich cultural tapestry, historic charm, and a thriving blend of modernity. Explore vibrant street art, savor diverse culinary delights, and bask in the island's warm hospitality. As a UNESCO World Heritage site, Penang boasts a unique fusion of traditions and innovation, making it an ideal destination for those seeking an authentic yet dynamic experience. Whether wandering through historic George Town or indulging in delectable street food, Penang invites you to discover a tapestry of experiences in a place where tradition meets modern allure. Your adventure in Penang awaits – where every corner tells a story and every moment promises excitement!
-
-<!-- split -->
-
-Penang's rich heritage is evident in its UNESCO-listed George Town, where colonial architecture seamlessly blends with vibrant street art and traditional shophouses. The city's diverse cultural influences, including Malay, Chinese, Indian, and Peranakan, have shaped its unique identity. Visitors can explore historical sites such as Fort Cornwallis, the Khoo Kongsi clan house, and the iconic Kapitan Keling Mosque. The heritage of Penang is not confined to its structures; it comes alive in the lively markets, traditional festivals, and the daily rhythm of its multicultural residents. The preservation of this heritage enhances Penang's allure, offering a fascinating glimpse into the history and cultural tapestry of this captivating Malaysian destination.
+Penang is located in the north part of the Peninsular Malaysia and George Town is the capital city. It was once an important Straits of Malacca trading hub, and the city’s old town is known for its British colonial buildings, Chinese shophouses and mosques. Nowadays, George Town is a modern city with skyscrapers, condominiums, and shopping malls. It is connected to the Malaysia Peninsula by two main road bridges, Penang Bridge and the Sultan Abdul Halim Muadzam Shah Bridge (Penang Second Bridge).
 
 <!-- split -->
 
-Penang's food scene is a delightful journey through a diverse culinary landscape. Known as the "Food Paradise of Malaysia," the city offers an array of iconic dishes reflecting Malay, Chinese, Indian, and Peranakan influences. From the savory Char Kway Teow to the flavorful Nasi Kandar and the tangy Penang Laksa, every bite tells a story of cultural fusion. Street food enthusiasts can explore bustling markets like Gurney Drive and Kimberly Street, where the aroma of sizzling woks and the vibrant colors of local delicacies create an unforgettable sensory experience. Penang's culinary heritage is not just about sustenance; it's a celebration of flavors that have evolved over generations, making it a must-visit destination for food connoisseurs seeking an authentic and diverse gastronomic adventure.
+Georgetown was listed as a World Heritage Site by UNESCO in July 2008. It plays a vital role of Malaysian art and culture center, which is a melting pot of diversity and cultures. From unique street arts, preservation of heritage buildings, to vibrant lifestyles of local people, Penang is deeply fascinating.
 
 <!-- split -->
+
+Penang is known as the "Pearl of the Orient" by Western tourists and praised by Easterners as a "food paradise". It has a mixture of variety: Malay, Chinese, Indian, Nyonya, Western, Japanese, Korean and many more. Teochew Cendol and fried kuey teow are a must-eat in Penang. You would never want to leave Penang without trying Penang food.
+
+<!-- split -->
+
+Many local artists participated in leaving a mural on the walls of Georgetown. These artists used their imagination to draw the mural in every corner of the city. IBicycle is one of the fresco themes here. Tourists can rent and ride bicycles around the heritage old town, to admire more than 100+ street arts. I believe young people will love it.

@@ -11,16 +11,16 @@
 
         "Scenery": {
             "heading": "BREATHTAKING",
-            "heading2": "Scenery",
-            "description": "Malaysia is a country of contrasts, bathed in the warm tropical sun, endowed with 85,000 km of coastline, several historic cities, a unique cultural mix, a string of cool hill resorts, the world’s oldest rainforest, and Southeast Asia’s highest mountain.",
+            "heading2": "Mural",
+            "description": "The creator of Penang murals, artist Ernest Zacharevic said: \"Everyone is an artist. When they see these murals on the street, they can interpret them in their own way, and they are finished The second creation of art.\"",
             "image": [
-                "/images/malaysia/penangisland.jpg"
+                "/images/malaysia/mural.jpg"
             ]
         },
         "Heritage": {
-            "heading": "",
+            "heading": "UNESCO",
             "heading2": "Heritage",
-            "description": "Malaysia is a country of contrasts, bathed in the warm tropical sun, endowed with 85,000 km of coastline, several historic cities, a unique cultural mix, a string of cool hill resorts, the world’s oldest rainforest, and Southeast Asia’s highest mountain.",
+            "description": "Explore the enchanting blend of history, culture, and flavors in Penang, where UNESCO-listed streets adorned with vibrant street art weave through a culinary haven of diverse, mouthwatering delights",
             "image": [
                 "/images/malaysia/temple.jpg"
             ]
