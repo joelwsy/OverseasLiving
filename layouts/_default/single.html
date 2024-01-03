@@ -46,6 +46,7 @@
 
                 {{ else if eq .Params.topic "expat"}}
                 {{ .Content}}
+                {{ partial "blog/expat.html"}}
 
                 {{ else if eq .Params.topic "estate"}}
                 {{ partial "blog/realestate.html" . }}

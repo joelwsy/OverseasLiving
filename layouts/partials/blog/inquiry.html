@@ -2,22 +2,22 @@
   <input type="hidden" name="_template" value="table">
   <div class="formbold-input-flex">
     <div>
-      <label for="firstname" class="formbold-form-label"> First name </label>
+      <label for="firstname" class="formbold-form-label" required> First name </label>
       <input type="text" name="First Name" id="firstname" placeholder="First name" class="formbold-form-input" />
     </div>
     <div>
-      <label for="lastname" class="formbold-form-label "> Last name </label>
+      <label for="lastname" class="formbold-form-label"> Last name </label>
       <input type="text" name="Last Name" id="lastname" placeholder="Last name" class="formbold-form-input" />
     </div>
   </div>
 
   <div class="formbold-input-flex">
     <div>
-      <label for="email" class="formbold-form-label"> E-Mail </label>
+      <label for="email" class="formbold-form-label" required> E-Mail </label>
       <input type="email" name="E-mail" id="email" placeholder="E-mail" class="formbold-form-input" />
     </div>
     <div>
-      <label for="phone" class="formbold-form-label"> Phone </label>
+      <label for="phone" class="formbold-form-label" required> Phone </label>
       <input type="text" name="Phone" id="phone" placeholder="Phone" class="formbold-form-input" />
     </div>
   </div>
@@ -28,7 +28,7 @@
     <div class="formbold-radio-flex">
       <div class="formbold-radio-group">
         <label class="formbold-radio-label">
-          <input class="formbold-input-radio" type="radio" name="Inquiry" id="inquiry" value="MM2H/SMM2H">
+          <input class="formbold-input-radio" type="radio" name="Inquiry" id="inquiry" value="MM2H/SMM2H" required>
           MM2H Visa / SMM2H Visa
           <span class="formbold-radio-checkmark"></span>
         </label>
@@ -71,20 +71,26 @@
   <div class="formbold-input-flex">
     <div class="formbold-radio-group propertyFields mb-4" id="propertyFields" style="display: none;">
       Monthly budget : <br>
-      <label for="budget1"><input type="radio" id="budget1" name="budget" value="RM2000 and Below"> RM 2000 and Below</label>
+      <label for="budget1"><input type="radio" id="budget1" name="budget" value="RM2000 and Below" required> RM 2000 and
+        Below</label>
       <br>
-      <label for="budget2"><input type="radio" id="budget2" name="budget" value="RM2000 - RM3000"> RM 2000 - RM 3000</label>
+      <label for="budget2"><input type="radio" id="budget2" name="budget" value="RM2000 - RM3000"> RM 2000 - RM
+        3000</label>
       <br>
-      <label for="budget3"><input type="radio" id="budget3" name="budget" value="RM3000 - RM5000"> RM 3000 - RM 5000</label>
+      <label for="budget3"><input type="radio" id="budget3" name="budget" value="RM3000 - RM5000"> RM 3000 - RM
+        5000</label>
       <br>
-      <label for="budget4"><input type="radio" id="budget4" name="budget" value="RM5000 and Above"> RM 5000 and Above </label>
+      <label for="budget4"><input type="radio" id="budget4" name="budget" value="RM5000 and Above"> RM 5000 and Above
+      </label>
     </div>
 
     <div class="formbold-radio-group propertyFields mb-4" id="propertyFields" style="display: none;">
       Property Type : <br>
-      <label for="propertyType1"><input type="radio" id="propertyType1" name="Property Type" value="Landed"> Landed</label>
+      <label for="propertyType1"><input type="radio" id="propertyType1" name="Property Type" value="Landed">
+        Landed</label>
       <br>
-      <label for="propertyType2"><input type="radio" id="propertyType2" name="Property Type" value="Condo"> Condominium</label>
+      <label for="propertyType2"><input type="radio" id="propertyType2" name="Property Type" value="Condo">
+        Condominium</label>
     </div>
   </div>
 
@@ -94,16 +100,28 @@
       <label for="propertyArea1"><input type="radio" id="propertyArea1" name="Property Area" value="North"> North (Batu
         Ferringih)</label>
       <br>
-      <label for="propertyArea2"><input type="radio" id="propertyArea2" name="Property Area" value="North East"> North East (Around Gurney
+      <label for="propertyArea2"><input type="radio" id="propertyArea2" name="Property Area" value="North East"> North
+        East (Around Gurney
         and Straits Quay)</label>
       <br>
-      <label for="propertyArea3"><input type="radio" id="propertyArea3" name="Property Area" value="South East"> South East (Near Penang
+      <label for="propertyArea3"><input type="radio" id="propertyArea3" name="Property Area" value="South East"> South
+        East (Near Penang
         Airport and Penang Bridge)</label>
+    </div>
+
+    <div class="formbold-radio-group propertyFields mb-4" id="propertyFields" style="display: none;">
+      Size : <br>
+      <label for="propertySize1"><input type="radio" id="propertySize1" name="Property Size"
+          value="1000 Sqft - 1500 Sqft"> 1000 SqFt - 1500 SqFt.</label>
+      <br>
+      <label for="propertySize2"><input type="radio" id="propertySize2" name="Property Size"
+          value="1500 Sqft and Above"> 1500 SqFt. and Above </label>
+      <br>
     </div>
   </div>
 
   <div>
-    <label for="message" class="formbold-form-label"> Message </label>
+    <label for="message" class="formbold-form-label" required> Message </label>
     <textarea rows="6" name="message" id="message" placeholder="Type your message"
       class="formbold-form-input"></textarea>
   </div>

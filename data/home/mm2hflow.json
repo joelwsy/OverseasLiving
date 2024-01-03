@@ -1,57 +1,57 @@
 [
     {
         "title": "Consultation and assessment",
-        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-        "icon": "/path/to/icon1.png"
+        "description": "Analysis of your profile and eligibility to apply for MM2H. We will advise you with the most suitable MM2H program for you and your family.",
+        "icon": "person_book"
     },
     {
         "title": "Start the application process",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-        "icon": "/path/to/icon2.png"
+        "icon": "assignment"    
     },
     {
         "title": "Pay for the deposit",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-        "icon": "/path/to/icon3.png"
+        "icon": "savings"
     },
     {
         "title": "Prepare the required document, medical report and Certificate of Good Conduct",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-        "icon": "/path/to/icon4.png"
+        "icon": "folder"
     },
     {
         "title": "Submit the application together with the government and agent fees",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-        "icon": "/path/to/icon5.png"
+        "icon": "assignment_turned_in"
     },
     {
         "title": "Time frame for approval is within 90-120 days after submission",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-        "icon": "/path/to/icon6.png"
+        "icon": "schedule"
     },
     {
         "title": "Approved!",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-        "icon": "/path/to/icon7.png"
+        "icon": "verified"
     },
     {
         "title": "Endorsement within 6 months",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-        "icon": "/path/to/icon8.png"
+        "icon": "calendar_month"
     },
     {
         "title": "Fixed deposit, medical checkup, medical insurance in Malaysia",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-        "icon": "/path/to/icon9.png"
+        "icon": "medical_information"
     },
     {
         "title": "Issuing of MM2H sticker",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-        "icon": "/path/to/icon10.png"
+        "icon": "verified"
     },
     {
         "title": "Congratulations!",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-        "icon": "/path/to/icon11.png"
+        "icon": "celebration"
     }
 ]
