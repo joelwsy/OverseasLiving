@@ -3,32 +3,30 @@ baseURL = 'https://example.org/'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 
-[languages]
-[languages.en]
-contentDir = 'content/en'
-disabled = false
-languageCode = 'en-US'
-languageDirection = 'ltr'
-languageName = 'English'
-title = 'Overseas Living'
+# [languages]
+# [languages.en]
+# contentDir = 'content/en'
+# disabled = false
+# languageCode = 'en-US'
+# languageDirection = 'ltr'
+# languageName = 'English'
+# title = 'Overseas Living'
 
-[languages.cn]
-contentDir = 'content/cn'
-disabled = false
-languageCode = 'zh-CN'
-languageDirection = 'ltr'
-languageName = 'Chinese'
-title = '奥维斯(第二家园)有限公司'
+# [languages.cn]
+# contentDir = 'content/cn'
+# disabled = false
+# languageCode = 'zh-CN'
+# languageDirection = 'ltr'
+# languageName = 'Chinese'
+# title = '奥维斯(第二家园)有限公司'
 
-[languages.jp]
-contentDir = 'content/jp'
-disabled = false
-languageCode = 'ja-JP'
-languageDirection = 'ltr'
-languageName = 'Japanese'
-title = 'オーバーシーズ リビング株式会社'
-
-
+# [languages.jp]
+# contentDir = 'content/jp'
+# disabled = false
+# languageCode = 'ja-JP'
+# languageDirection = 'ltr'
+# languageName = 'Japanese'
+# title = 'オーバーシーズ リビング株式会社'
 
 [menu]
 
