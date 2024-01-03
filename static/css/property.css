@@ -87,13 +87,13 @@
 .card-condo {
     position: relative;
     display: flex;
-    flex: 1 0 30%;
+    flex: 1 0 40%;
     margin: 1rem;
     box-sizing: border-box;
     justify-content: center;
     text-align: center;
     box-shadow: 0 10px 20px 0 rgba(32, 32, 36, 0.241);
-    width: 45%;
+    width: 55%;
 }
 
 .card-condo:hover {

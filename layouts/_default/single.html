@@ -9,16 +9,8 @@
 
 <header class="site-header d-flex flex-column justify-content-center align-items-center">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
-
-            <div class="col-lg-5 col-12 mb-5">
-                <h2 class="text-black">About {{ $title}}</h2>
-
-                <div class="d-flex align-items-center mt-5">
-                    <a href="#topics-detail" class="btn custom-btn custom-border-btn smoothscroll me-4">Read
-                        More</a>
-                </div>
-            </div>
+        <div class="col-lg-5 col-12 mb-5">
+            <h2 class="text-black">About {{ $title}}</h2>
         </div>
     </div>
 </header>
@@ -49,23 +41,23 @@
                 {{ else if eq .Params.topic "penang"}}
                 {{ partial "blog/penang.html" .RawContent}}
 
-                {{ else if eq .Params.topic "condo"}}
+                {{ else if eq .Params.topic "condominiums"}}
                 {{ partial "blog/condo.html" .}}
 
                 {{ else if eq .Params.topic "expat"}}
                 {{ .Content}}
 
-                {{ else if eq .Params.topic "estate"}}hu
+                {{ else if eq .Params.topic "estate"}}
                 {{ partial "blog/realestate.html" . }}
 
                 {{ else if eq .Params.topic "inquiry"}}
                 {{ .Content }}
                 {{ partial "blog/inquiry.html"}}
-                
+
                 {{ else if eq .Params.topic "news"}}
                 {{ .Content}}
                 {{ partial "blog/news.html"}}
-                
+
                 {{end}}
 
             </div>

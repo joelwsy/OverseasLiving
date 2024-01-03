@@ -29,7 +29,7 @@
             <div class="slick-slider h6-condo">
                 {{ range $value.image }}
                 <div>
-                    <img src="{{ . }}">
+                    <img src="{{ . | absURL }}">
                 </div>
                 {{ end }}
             </div>

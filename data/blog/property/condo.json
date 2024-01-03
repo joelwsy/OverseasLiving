@@ -1,51 +1,194 @@
-    {
-        "1 SKY": {
-            "name": "1 Sky",
-            "location": "Bayan Lepas",
-            "remarks": "Near the Sunshine Square and Queensbay mall, Few mins drive to Penang Bridge and the Penang International Airport",
-            "image": [
-                "https://www.idealproperty.com.my/wp-content/uploads/2019/01/1-Sky-copy-2.jpg",
-                "https://www.homesagency2u.com/2021/Bayan-Baru/1-sky/1-sky2.jpg"
-            ]
-        },
-        "118 @ Island Plaza": {
-            "name": "118 @ ISLAND PLAZA",
-            "location": "Tanjung Tokong",
-            "remarks": "Formerly Island Plaza office building. Bus stop, supermarket, shopping mall, restaurants and hawker center are within walking distance",
-            "image": [
-                "https://sg1-cdn.pgimgs.com/projectnet-project/153816/ZPPHO.128009628.R800X800.jpg"
-            ]
-        },
-        "BAYSWATER": {
-            "name": "BAYSWATER",
-            "location": "Gelugor",
-            "remarks": "Located next to Tesco and E-Gate Complex, only 3-mins drive to Penang Bridge",
-            "image": [
-                "https://sg1-cdn.pgimgs.com/projectnet-project/734/ZPPHO.95754111.R800X800.jpg",
-                "https://sg1-cdn.pgimgs.com/projectnet-project/734/ZPPHO.95754112.R800X800.jpg"
-            ]
-        },
-        "BELLISA COURT": {
-            "name": "BELLISA COURT",
-            "location": "Pulau Tikus",
-            "remarks": "Morning market, banks, post office, hawker center, Gurney Plaza and Gurney Paragon are within walking distance",
-            "image": [
-                "https://cdn.land.plus/photos/171290/view_bellisa-court.jpg",
-                "https://sg1-cdn.pgimgs.com/projectnet-project/895/ZPPHO.95754912.R550X550/Bellisa-Court-Georgetown-Malaysia.jpg"
-            ]
-        },
-        "BIRCH REGENCY @ PENANG TIMES SQUARE": {
-            "name": "BIRCH REGENCY @ PENANG TIMES SQUARE",
-            "location": "Georgetown",
-            "remarks": "Food court and McDonalds are right below the condominium",
-            "image": [
-                "https://img.iproperty.com.my/my-condo/640x640-fit/condolib/condominiums/1200/e35ec29f78f841e49678046cc853edb3.jpg"
-            ]
-        },
-        "COASTAL TOWER": {
-            "name": "COASTAL TOWER",
-            "location": "Tanjung Bungah",
-            "remarks": "10 ~15 mins drive to shopping center, restaurants, banks and Gurney area; some units can enjoy great sea view from balconies",
-            "image": []
-        }
+{
+    "1 SKY": {
+        "name": "1 Sky",
+        "location": "Bayan Lepas",
+        "remarks": "Near the Sunshine Square and Queensbay mall, Few mins drive to Penang Bridge and the Penang International Airport",
+        "image": [
+            "images/condo/1sky.png"
+        ]
+    },
+    "118 @ Island Plaza": {
+        "name": "118 @ ISLAND PLAZA",
+        "location": "Tanjung Tokong",
+        "remarks": "Formerly Island Plaza office building. Bus stop, supermarket, shopping mall, restaurants and hawker center are within walking distance",
+        "image": [
+            "https://sg1-cdn.pgimgs.com/projectnet-project/153816/ZPPHO.128009628.R800X800.jpg"
+        ]
+    },
+    "BAYSWATER": {
+        "name": "BAYSWATER",
+        "location": "Gelugor",
+        "remarks": "Located next to Tesco and E-Gate Complex, only 3-mins drive to Penang Bridge",
+        "image": [
+            "images/condo/bayswater.png"
+        ]
+    },
+    "BELLISA COURT": {
+        "name": "BELLISA COURT",
+        "location": "Pulau Tikus",
+        "remarks": "Morning market, banks, post office, hawker center, Gurney Plaza and Gurney Paragon are within walking distance",
+        "image": [
+            "images/condo/bellisa.png"
+        ]
+    },
+    "BIRCH REGENCY @ PENANG TIMES SQUARE": {
+        "name": "BIRCH REGENCY @ PENANG TIMES SQUARE",
+        "location": "Georgetown",
+        "remarks": "Food court and McDonalds are right below the condominium",
+        "image": [
+            "images/condo/timessquare.png"
+        ]
+    },
+    "COASTAL TOWER": {
+        "name": "COASTAL TOWER",
+        "location": "Tanjung Bungah",
+        "remarks": "10 ~15 mins drive to shopping center, restaurants, banks and Gurney area; some units can enjoy great sea view from balconies",
+        "image": [
+            "images/condo/coastal.png"
+        ]
+    },
+    "COSTA VILLA": {
+        "name": "COSTA VILLA",
+        "location": "Tanjung Bungah",
+        "remarks": "Located in a quiet neighborhood, Straits Quay, banks and hawker center are within walking distance",
+        "image": [
+            "images/condo/costavilla.png"
+        ]
+    },
+    "ELIT HEIGHTS": {
+        "name": "ELIT HEIGHTS",
+        "location": "Bayan Baru",
+        "remarks": "Retail outlets and restaurants are right below the condominium building. Only few mins drive to Penang international airport and Penang bridge",
+        "image": [
+            "images/condo/elitheights.png"
+        ]
+    },
+    "FETTES RESIDENCE": {
+        "name": "FETTES RESIDENCE",
+        "location": "Tanjung Tokong",
+        "remarks": "Bank, convenient shops, laundry, retail outlets, restaurants, hypermarket such as Tesco and Island Plaza are within walking distance",
+        "image": [
+            "images/condo/fettes.png"
+        ]
+    },
+    "GURNEY BEACH RESORT CONDOMINIUM": {
+        "name": "GURNEY BEACH RESORT CONDOMINIUM",
+        "location": "Gurney Drive",
+        "remarks": "Located along famous Gurney drive. Gurney Plaza, Gurney Paragon, cafés, restaurants and banks are within walking distance",
+        "image": [
+            "images/condo/gurneybeachresort.png"
+        ]
+    },
+    "GURNEY PARAGON": {
+        "name": "GURNEY PARAGON",
+        "location": "Gurney Drive",
+        "remarks": "Residential-cum-retail complex, very good location",
+        "image": [
+            "images/condo/gurneyparagon.png"
+        ]
+    },
+    "GURNEY PARK CONDOMINIUM": {
+        "name": "GURNEY PARK CONDOMINIUM",
+        "location": "Gurney Drive",
+        "remarks": "Strategically located beside Gurney Plaza. Morning market, hawker center, banks and post office within walking distance",
+        "image": [
+            "images/condo/gurneypark.png"
+        ]
+    },
+    "GURNEY VILLA": {
+        "name": "GURNEY VILLA",
+        "location": "Gurney Drive",
+        "remarks": "Located right next to Gurney Plaza. Morning market, post office, hospital and hawker center within walking distance",
+        "image": [
+            "images/condo/gurneyvilla.png"
+        ]
+    },
+    "MANSION ONE": {
+        "name": "MANSION ONE",
+        "location": "Georgetown",
+        "remarks": "Gleneagles Hospital, food court, restaurants are within walking distance",
+        "image": [
+            "images/condo/mansionone.png"
+        ]
+    },
+    "MARINA BAY": {
+        "name": "MARINA BAY",
+        "location": "Tanjung Tokong",
+        "remarks": "Shopping center, restaurants, banks and bus stop within walking distance",
+        "image": [
+            "images/condo/marinabay.png"
+        ]
+    },
+    "MIAMI GREEN": {
+        "name": "MIAMI GREEN",
+        "location": "Batu Ferringhi",
+        "remarks": "A resort-styled condominium, 20-mins drive to Gurney area, Good seaview",
+        "image": [
+            "images/condo/miamigreen.png"
+        ]
+    },
+    "MUTIARA VILLA CONDOMINIUM": {
+        "name": "MUTIARA VILLA CONDOMINIUM",
+        "location": "Bagan Jermal",
+        "remarks": "10 mins walk to Gurney Plaza and Gurney Paragon. One of the popular selection by foreigners",
+        "image": [
+            "images/condo/mutiaravilla.png"
+        ]
+    },
+    "PERSIARAN GURNEY 1": {
+        "name": "PERSIARAN GURNEY 1",
+        "location": "Gurney Drive",
+        "remarks": "Nice seaview, Hospital, food court and restaurants are within walking distance",
+        "image": [
+            "images/condo/persiarangurney.png"
+        ]
+    },
+    "PLATINO LUXURY CONDOMINIUM": {
+        "name": "PLATINO LUXURY CONDOMINIUM",
+        "location": "Gelugor",
+        "remarks": "5-mins walk to Tesco, E-gate and Udini Square, 3-mins drive to Penang bridge",
+        "image": [
+            "images/condo/platino.png"
+        ]
+    },
+    "QUAYSIDE SEA FRONT RESORT CONDOMINIUM": {
+        "name": "QUAYSIDE SEA FRONT RESORT CONDOMINIUM",
+        "location": "Tanjung Tokong",
+        "remarks": "Strategically located next to Strait Quay Marina Mall Tesco, restaurants and shopping centres within walking distance",
+        "image": [
+            "images/condo/quayside.png"
+        ]
+    },
+    "Sri Pangkor Condominium": {
+        "name": "Sri Pangkor Condominium",
+        "location": "Pulau Tikus",
+        "remarks": "An exclusive condo with good facilities and amenities",
+        "image": [
+            "images/condo/sripangkor.png"
+        ]
+    },
+    "SUMMERTON BAYAN INDAH": {
+        "name": "SUMMERTON BAYAN INDAH",
+        "location": "Bayan Lepas",
+        "remarks": "Located near Queensbay Mall, restaurants, banks, night market",
+        "image": [
+            "images/condo/summerton.png"
+        ]
+    },
+    "TANJUNG PARK": {
+        "name": "TANJUNG PARK",
+        "location": "Tanjung Tokong",
+        "remarks": "5-mins walk to shopping center, restaurants, banks, and bus stop",
+        "image": [
+            "images/condo/tanjungpark.png"
+        ]
+    },
+    "THE BREZZA": {
+        "name": "THE BREZZA",
+        "location": "Tanjung Tokong",
+        "remarks": "Straits Quay, Island Plaza and Tesco within walking distance, 5-mins drive to Gurney area",
+        "image": [
+            "images/condo/brezza.png"
+        ]
     }
+}
