@@ -6,9 +6,9 @@
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="material-icons">
+            <span class="material-symbols-outlined">
                 menu
-            </span>
+                </span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -21,11 +21,15 @@
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">Languages</a>
+                        data-bs-toggle="dropdown" aria-expanded="false">Languages
+                    </a>
+                    <span class="material-symbols-outlined" id="menuIcon" style="display: none;">
+                        menu
+                    </span>
 
                     <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                        <li><a class="dropdown-item" href="{{ "topics-listing.html" | absURL }}">Japanese</a></li>
-                        <li><a class="dropdown-item" href="{{ "contact.html" | absURL }}">Mandarin</a></li>
+                        <li><a class="dropdown-item" href="jp/index.html">Japanese</a></li>
+                        <li><a class="dropdown-item" href="cn/index.html">Mandarin</a></li>
                     </ul>
                 </li>
             </ul>

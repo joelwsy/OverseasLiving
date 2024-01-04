@@ -1,7 +1,7 @@
 +++
 title = 'Condominiums'
 date = 2023-12-15T11:07:22+08:00
-draft = true
+draft = false
 
 topic = "condominiums" 
 bgimg = "(../../static/images/malaysia/multiculture.png)"
@@ -16,7 +16,7 @@ Our CEO, Ms Jessie and her team provide professional real estate support from re
 We believe that nobody knows Penang better than a Penangite! Do feel free to drop us a mail to find out more.
 
 <!-- split -->
-<!-- 1 SKY -->
+<!-- !! 1 SKY -->
 ###### Floor Area
 
 * 128 ~ 153 square meter

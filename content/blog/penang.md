@@ -1,7 +1,7 @@
 +++
 title = 'Penang'
 date = 2023-12-15T09:52:55+08:00
-draft = true
+draft = false
 
 topic = "penang" 
 bgimg = "(../../static/images/malaysia/multiculture.png)"

@@ -1,7 +1,7 @@
 +++
 title = 'Expat'
 date = 2023-12-20T11:26:49+08:00
-draft = true
+draft = false
 
 topic = "expat" 
 bgimg = "(../../static/images/malaysia/multiculture.png)"
