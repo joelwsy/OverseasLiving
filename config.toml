@@ -29,7 +29,6 @@ defaultContentLanguageInSubdir = false
 # title = 'オーバーシーズ リビング株式会社'
 
 [menu]
-
 [[menu.main]]
 name = 'Home'
 url = '#home'
