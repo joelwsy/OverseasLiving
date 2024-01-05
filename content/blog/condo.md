@@ -17,6 +17,10 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !! 1 SKY -->
+###### Year of Completion
+
+* 2015
+
 ###### Floor Area
 
 * 128 ~ 153 square meter
@@ -40,6 +44,10 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- 118 @ ISLAND PLAZA -->
+###### Year of Completion
+
+* 2015
+
 ###### Floor Area
 
 * 45 ~ 108 square meter
@@ -59,6 +67,10 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- BAYSWATER -->
+###### Year of Completion
+
+* 2010
+
 ###### Floor Area
 
 * 106 ~ 152 square meter
@@ -83,6 +95,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- Bellisa Court -->
+###### Year of Completion
+
+* 1999
 
 ###### Floor Area
 
@@ -107,6 +122,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- Birch Regency -->
+###### Year of Completion
+
+* 2012
 
 ###### Floor Area
 
@@ -131,6 +149,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- COASTAL TOWER -->
+###### Year of Completion
+
+* 2007
 
 ###### Floor Area
 
@@ -155,6 +176,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !!COSTA VILLA -->
+###### Year of Completion
+
+* 1996
 
 ###### Floor Area
 
@@ -177,6 +201,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !! Elit heights -->
+###### Year of Completion
+
+* 2017
 
 ###### Floor Area
 
@@ -200,6 +227,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !! FETTES RESIDENCE -->
+###### Year of Completion
+
+* 2014
 
 ###### Floor Area
 
@@ -221,6 +251,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !!Gurney beach resort -->
+###### Year of Completion
+
+* 2001
 
 ###### Floor Area
 
@@ -246,6 +279,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !!Gurney paragon -->
+###### Year of Completion
+
+* 2013
 
 ###### Floor Area
 
@@ -268,6 +304,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !!Gurney park -->
+###### Year of Completion
+
+* 2002
 
 ###### Floor Area
 
@@ -292,6 +331,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !!Gurney villa -->
+###### Year of Completion
+
+* 1999
 
 ###### Floor Area
 
@@ -315,6 +357,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !!Mansion One -->
+###### Year of Completion
+
+* 2017
 
 ###### Floor Area
 
@@ -336,6 +381,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !!Marina bay -->
+###### Year of Completion
+
+* 2004
 
 ###### Floor Area
 
@@ -360,6 +408,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !!Miami Green -->
+###### Year of Completion
+
+* 2003
 
 ###### Floor Area
 
@@ -385,6 +436,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !!Mutiara Villa condominium -->
+###### Year of Completion
+
+* 1997
 
 ###### Floor Area
 
@@ -409,6 +463,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !!Persiaran Gurney 1 -->
+###### Year of Completion
+
+* 2001
 
 ###### Floor Area
 
@@ -432,6 +489,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !!Platino Luxury -->
+###### Year of Completion
+
+* 2013
 
 ###### Floor Area
 
@@ -457,6 +517,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !!Quayside -->
+###### Year of Completion
+
+* 2020
 
 ###### Floor Area
 
@@ -483,6 +546,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !!Sri Pangkor -->
+###### Year of Completion
+
+* 2002
 
 ###### Floor Area
 
@@ -510,6 +576,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !!Summerton -->
+###### Year of Completion
+
+* 2017
 
 ###### Floor Area
 
@@ -534,6 +603,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !!Tanjung Parkk -->
+###### Year of Completion
+
+* 2007
 
 ###### Floor Area
 
@@ -558,6 +630,9 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 
 <!-- split -->
 <!-- !!The Brezza -->
+###### Year of Completion
+
+* 2014
 
 ###### Floor Area
 

@@ -208,9 +208,8 @@
     }
 }
 
-#sellingprice
-
 /* !!REAL ESTATE.HTML CSS */
+
 .card {
     width: 30%;
     height: auto;
@@ -272,4 +271,23 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 45%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        width: 100%;
+    }
 }
