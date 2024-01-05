@@ -1,57 +1,57 @@
 [
     {
         "title": "Consultation and assessment",
-        "description": "Analysis of your profile and eligibility to apply for MM2H. We will advise you with the most suitable MM2H program for you and your family.",
+        "description": "Our team conducts a comprehensive analysis of your profile to determine your eligibility for the MM2H program. We provide personalized advice to help you choose the most suitable MM2H program for you and your family.",
         "icon": "person_book"
     },
     {
         "title": "Start the application process",
-        "description": "",
+        "description": "Once you decide to proceed, we initiate the MM2H application process. Our experts guide you through the necessary steps, ensuring a smooth and efficient start to your MM2H journey.",
         "icon": "assignment"    
     },
     {
         "title": "Pay for the deposit",
-        "description": "",
+        "description": "Secure your application by making the required deposit. This step marks the formal commitment to the MM2H process, and the deposit is an essential part of the application requirements.",
         "icon": "savings"
     },
     {
         "title": "Prepare the required document, medical report and Certificate of Good Conduct",
-        "description": "",
+        "description": "Gather and organize the necessary documents, including a medical report and Certificate of Good Conduct. Our team provides guidance on the specific documentation needed for a successful MM2H application.",
         "icon": "folder"
     },
     {
         "title": "Submit the application together with the government and agent fees",
-        "description": "",
+        "description": "Submit your prepared application along with the required government and agent fees. Our team ensures a timely and accurate submission, facilitating the official processing of your MM2H application.",
         "icon": "assignment_turned_in"
     },
     {
         "title": "Time frame for approval is within 90-120 days after submission",
-        "description": "",
+        "description": "The MM2H approval process typically takes between 90 to 120 days after the submission of your application. We keep you informed about the progress, providing transparency and updates throughout this period.",
         "icon": "schedule"
     },
     {
         "title": "Approved!",
-        "description": "",
+        "description": "Congratulations! Upon successful approval, you have officially been accepted into the MM2H program. This marks a significant milestone in your journey towards making Malaysia your second home.",
         "icon": "verified"
     },
     {
         "title": "Endorsement within 6 months",
-        "description": "",
+        "description": "Complete the endorsement process within 6 months of approval. Our team guides you through the necessary steps to ensure a seamless transition and compliance with the program requirements.",
         "icon": "calendar_month"
     },
     {
         "title": "Fixed deposit, medical checkup, medical insurance in Malaysia",
-        "description": "",
+        "description": "Fulfill the post-approval requirements, including setting up a fixed deposit, undergoing a medical checkup, and obtaining medical insurance in Malaysia. Our experts assist you in navigating these essential steps.",
         "icon": "medical_information"
     },
     {
         "title": "Issuing of MM2H sticker",
-        "description": "",
+        "description": "After meeting all requirements, receive your MM2H sticker. This sticker signifies your official participation in the program and facilitates your stay in Malaysia.",
         "icon": "verified"
     },
     {
         "title": "Congratulations!",
-        "description": "",
+        "description": "Celebrate your successful completion of the MM2H process. Welcome to Malaysia, your new home! Our team is here to assist you in settling down and enjoying the benefits of your MM2H status.",
         "icon": "celebration"
     }
 ]
