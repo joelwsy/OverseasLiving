@@ -27,8 +27,8 @@
                 <p class="d-flex align-items-center mb-1">
                     <span class="me-2">Phone</span>
 
-                    <a href="tel:+6046099079" class="site-footer-link">
-                        +(6)04 - 609 9079
+                    <a href="tel:60124908226" class="site-footer-link">
+                        +(6)0 12-490 8226
                     </a>
                 </p>
 
@@ -49,16 +49,40 @@
                 </p>
                 <button class="btn btn-outline-secondary btn-lg">
                     <a href="/blog/inquiry/">
-                    <strong>Contact Us </strong>
-                    </a>    
+                        <strong>Contact Us </strong>
+                    </a>
                 </button>
 
                 <button class="btn btn-outline-secondary btn-lg">
-                    <a href="/blog/inquiry/">
-                    <strong>Company Details </strong>
+                    <a href="/blog/company-details/">
+                        <strong>Company Details </strong>
                     </a>
                 </button>
             </div>
         </div>
-    </div>
+
+        <div class="row mt-5">
+            <div class="image-container">
+                <img src="/images/office-building.jpg" alt="Office Building">
+                <img src="/images/office-door.jpg" alt="Office Door">
+                <img src="/images/office.jpg" alt="Office">
+                <!-- Add more images as needed -->
+            </div>
+
+            <style>
+            .image-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .image-container img {
+                width: calc(100% / 3 - 10px); /* Adjust this value based on the number of images and desired spacing */
+                height: auto;
+                object-fit: cover;
+                aspect-ratio: 4 / 3;
+                margin-top: 1rem;
+            }
+            </style>
+
+        </div>
 </section>

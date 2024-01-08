@@ -59,6 +59,9 @@
                 {{ .Content}}
                 {{ partial "blog/news.html"}}
 
+                {{ else if eq .Params.topic "company-details"}}
+                {{ .Content }}
+                {{ partial "blog/company-details.html"}}
                 {{end}}
 
             </div>
