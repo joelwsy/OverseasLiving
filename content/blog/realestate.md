@@ -5,7 +5,7 @@ draft = false
 
 topic = "estate" 
 
-image = "/images/blog/gurneydrive.png"
+image = "/images/blog/KL-by-joelwsy.jpg"
 
 +++
 
