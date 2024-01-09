@@ -4,7 +4,7 @@ date = 2023-12-13T17:17:03+08:00
 draft = false
 
 topic = "malaysia"
-bgimg = "(../../static/images/malaysia/multiculture.png)"
+bgimg = "(/images/malaysia/multiculture.png)"
 +++
 
 ###### Malaysia offers a variety of eye-opening experiences

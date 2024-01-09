@@ -4,6 +4,7 @@
     position: absolute;
     top: 50%;
     width: auto;
+    max-width: 40%;
     padding: 16px;
     margin-top: -22px;
     color: white;
@@ -93,7 +94,7 @@
     justify-content: center;
     text-align: center;
     box-shadow: 0 10px 20px 0 rgba(32, 32, 36, 0.241);
-    width: 55%;
+    width: 300px;
 }
 
 .card-condo:hover {
@@ -106,7 +107,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     background: orange;
 }
 
@@ -118,7 +118,8 @@
 }
 
 .card-condo::after {
-    width: 100%;
+    width: 40%;
+    max-width: 40%;
     background: white;
     transition: width 0.5s, height 0.5s, ease;
 }
@@ -174,6 +175,7 @@
     max-height: 15rem;
     overflow: auto;
     transform: none;
+    background-color: rgba(215, 215, 215, 0.3);
 }
 
 .condo-details {
@@ -195,7 +197,12 @@
     transform: translate(-50%, -50%);
 }
 
-@media (max-width: 600px) {
+.card-condo:hover .expand-button {
+    bottom: -20px; /* Adjust the value to position the button slightly lower */
+}
+
+
+@media (max-width: 1024px) {
 
     /* The button is displayed on screens smaller than 600px */
     .expand-button {
@@ -207,6 +214,27 @@
         width: 100%;
     }
 }
+
+@media (max-width: 600px) {
+    .card-condo {
+        width: 100%; /* Set the card width to 100% for smaller screens */
+        box-sizing: border-box;
+    }
+
+    .card-condo:hover {
+        width: 100%; /* Set the expanded width to 100% for smaller screens */
+    }
+
+    .slick-slider {
+        width: 100%; /* Ensure the slider takes the full width on smaller screens */
+    }
+
+    .hover_content-condo {
+        max-height: none; /* Allow the content to expand fully on hover */
+        transform: none;
+    }
+}
+
 
 /* !!REAL ESTATE.HTML CSS */
 
@@ -288,6 +316,6 @@
 
 @media screen and (max-width: 500px) {
     .card {
-        width: 100%;
+        width: 100%;    
     }
 }

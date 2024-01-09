@@ -1,10 +1,10 @@
 +++
-title = 'Condominiums'
+title = 'Condominiums in Penang'
 date = 2023-12-15T11:07:22+08:00
 draft = false
 
 topic = "condominiums" 
-bgimg = "(../../static/images/malaysia/multiculture.png)"
+image = "/images/blog/c-condo-by-wan-san-yip.jpg"
 +++
 
 ##### Condominiums in Penang
@@ -248,6 +248,32 @@ We believe that nobody knows Penang better than a Penangite! Do feel free to dro
 ###### Selling price
 
 * RM 1,700,000 ~
+
+<!-- split -->
+######  Unit Details
+
+* 4 Aircon
+* 2 Car Park
+
+###### Year of Completion
+
+* 2024
+
+###### Floor Area
+
+* 864 ~ Square Feet
+
+###### Facilities
+
+* Swimming pool
+* Gym
+* 24 hours security
+* Reading room
+* Rooftop garden
+
+###### Rental
+
+* RM 2,200~
 
 <!-- split -->
 <!-- !!Gurney beach resort -->

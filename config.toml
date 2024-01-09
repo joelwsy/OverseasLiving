@@ -31,25 +31,25 @@ defaultContentLanguageInSubdir = false
 [menu]
 [[menu.main]]
 name = 'Home'
-url = '#home'
+url = '/#home'
 weight = 1
 
 [[menu.main]]
 name = 'Services & Content'
-url = '#content'
+url = '/#content'
 weight = 2
 
 [[menu.main]]
 name = 'Why Malaysia?'
-url = '#emm2h'
+url = '/#emm2h'
 weight = 3
 
 [[menu.main]]
 name = 'FAQs'
-url = '#faqs'
+url = '/#faq'
 weight = 4
 
 [[menu.main]]
 name = 'Contact'
-url = '#contact'
+url = '/#contact'
 weight = 5

@@ -1,24 +1,13 @@
 +++
-title = 'SMM2HVisa'
+title = 'SMM2H Visa Application'
 date = 2023-12-07T13:50:47+08:00
 draft = false
 
 topic = "SMM2H"
 
 description = "All you need to know about SMM2H's Visa"
-bgimg = "(../../static/images/malaysia/multiculture.png)"
 
-[[faqs]]
-question = "S-MM2H Renenwal"
-answer = """
-**Required Documents**
-- Completed renewal application form
-- Valid passport or travel document
-- Proof of financial resources, such as bank statements or fixed deposit certificates
-- Proof of medical insurance coverage.
-- Updated medical report (if requested)
-- Any other documents as specified by the Sarawak Tourism Board.
-"""
+image = "/images/blog/sarawak.jpg"
 
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = 'MM2H'
+title = 'MM2H Visa Application'
 date = 2023-12-07T13:50:41+08:00
 draft = false
 
@@ -7,7 +7,7 @@ topic = "MM2H"
 
 description = "All you need to know about MM2H's Visa"
 
-bgimg = "(../../static/images/malaysia/multiculture.png)"
+image = "/images/blog/MM2H.jpg"
 
 +++
 
@@ -16,8 +16,8 @@ bgimg = "(../../static/images/malaysia/multiculture.png)"
 * Mild climate, less pollution, and a safe place with least natural disasters.
 * Living cost is reasonable, can enjoy good quality lifestyle.
 * People are friendly and English is widely spoken.
-* Medical facilities are world ranking standard.
-* Economy stability (GDP growth 4.9% in 2019 Quarter 2)
+* Medical facilities are [world ranking standard](https://www.ipsos.com/sites/default/files/ct/news/documents/2023-10/%5BIpsos%20Press%20Release%5D%20Health%20Service%20Monitor%202023_05%20Oct%202023.pdf).
+* Economy stability (GDP growth 8.65% in 2022)
 
 ### Merits of MM2H Visa
 

@@ -3,3 +3,28 @@
     <strong>Contact Us </strong>
     </a>    
 </button>
+
+<div class="row mt-5">
+    <div class="image-container">
+        <img src="/images/estate/popular1.jpg" alt="">
+        <img src="/images/estate/popular2.jpg" alt="">
+        <img src="/images/estate/popular3.jpg" alt="">
+        <!-- Add more images as needed -->
+    </div>
+
+    <style>
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .image-container img {
+        width: calc(100% / 3 - 10px); /* Adjust this value based on the number of images and desired spacing */
+        height: auto;
+        object-fit: cover;
+        aspect-ratio: 4 / 3;
+        margin-top: 1rem;
+    }
+    </style>
+
+</div>

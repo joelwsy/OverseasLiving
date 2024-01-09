@@ -71,6 +71,21 @@
             "images/condo/fettes.png"
         ]
     },
+    "GRATINO" : {
+        "name": "GRATINO",
+        "location": "Tanjung Tokong",
+        "remarks": "Newly built condo located at Tanjung Bungah, with markets, cafes, and banks within short distance",
+        "image": [
+            "images/condo/gratino-gate.jpg",
+            "images/condo/gratino-pool.jpg",
+            "images/condo/gratino-facility.jpg",
+            "images/condo/gratino-facility(2).jpg",
+            "images/condo/gratino-facility(3).jpg",
+            "images/condo/gratino-facility(4).jpg",
+            "images/condo/gratino-facility(5).jpg",
+            "images/condo/gratino-gate(2).jpg"
+        ]
+    },
     "GURNEY BEACH RESORT CONDOMINIUM": {
         "name": "GURNEY BEACH RESORT CONDOMINIUM",
         "location": "Gurney Drive",

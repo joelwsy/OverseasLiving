@@ -43,25 +43,35 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-lg-5 me-lg-auto">
                 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="https://www.overseaslivingpenang.com/">Home</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle click-scroll" href="https://www.overseaslivingpenang.com/">Home</a>
+
                 </li>
                 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="https://www.overseaslivingpenang.com/">Services &amp; Content</a>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle click-scroll" href="https://www.overseaslivingpenang.com/">Services &amp; Content</a>
+
                 </li>
                 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="https://www.overseaslivingpenang.com/">Why Malaysia?</a>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle click-scroll" href="https://www.overseaslivingpenang.com/">Why Malaysia?</a>
+
                 </li>
                 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="https://www.overseaslivingpenang.com/">FAQs</a>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle click-scroll" href="https://www.overseaslivingpenang.com/">FAQs</a>
+
                 </li>
                 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="https://www.overseaslivingpenang.com/">Contact</a>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle click-scroll" href="https://www.overseaslivingpenang.com/">Contact</a>
+
                 </li>
+                
                 
 
                 <li class="nav-item dropdown">
@@ -91,13 +101,47 @@
 
 
 
-<header class="site-header d-flex flex-column justify-content-center align-items-center">
+<header class="site-header d-flex flex-column justify-content-center align-items-center section_1" id="header-page">
+    <img src="/images/blog/c-expat-by-zhen-hao-chu.jpg" alt="header image" class="background-image">
     <div class="container">
         <div class="col-lg-5 col-12 mb-5">
-            <h2 class="text-black">Expat</h2>
+            <h2 class="text-black">For Expats</h2>
         </div>
     </div>
-</header>
+</header>   
+
+<style> 
+    .background-image {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        max-height: 300px;
+        top: 0;
+        object-fit: cover;
+        object-position: top;
+    }
+    
+    #header-page {
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255,255,255,0));
+        position: relative;
+        padding-top: auto;
+        padding-bottom: 5vh;
+        margin-top: 5rem;
+    }
+
+    @media (max-width: 768px) {
+        #header-page {
+            padding-top: 5vh;
+            padding-bottom: 5vh;
+        }
+    }
+
+    .section_1 p{
+        color: black;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+</style>
 
 <section class="topics-detail-section section-padding" id="topics-detail">
     <div class="container">
@@ -119,6 +163,31 @@
     <strong>Contact Us </strong>
     </a>    
 </button>
+
+<div class="row mt-5">
+    <div class="image-container">
+        <img src="/images/estate/popular1.jpg" alt="">
+        <img src="/images/estate/popular2.jpg" alt="">
+        <img src="/images/estate/popular3.jpg" alt="">
+        
+    </div>
+
+    <style>
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .image-container img {
+        width: calc(100% / 3 - 10px);  
+        height: auto;
+        object-fit: cover;
+        aspect-ratio: 4 / 3;
+        margin-top: 1rem;
+    }
+    </style>
+
+</div>
 
                 
 
@@ -181,18 +250,42 @@
                 </p>
                 <button class="btn btn-outline-secondary btn-lg">
                     <a href="/blog/inquiry/">
-                    <strong>Contact Us </strong>
-                    </a>    
+                        <strong>Contact Us </strong>
+                    </a>
                 </button>
 
                 <button class="btn btn-outline-secondary btn-lg">
-                    <a href="/blog/inquiry/">
-                    <strong>Company Details </strong>
+                    <a href="/blog/company-details/">
+                        <strong>Company Details </strong>
                     </a>
                 </button>
             </div>
         </div>
-    </div>
+
+        <div class="row mt-5">
+            <div class="image-container">
+                <img src="/images/office-building.jpg" alt="Office Building">
+                <img src="/images/office-door.jpg" alt="Office Door">
+                <img src="/images/office.jpg" alt="Office">
+                
+            </div>
+
+            <style>
+            .image-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .image-container img {
+                width: calc(100% / 3 - 10px);  
+                height: auto;
+                object-fit: cover;
+                aspect-ratio: 4 / 3;
+                margin-top: 1rem;
+            }
+            </style>
+
+        </div>
 </section>
     <!DOCTYPE html>
 <html>
@@ -220,7 +313,7 @@
                     </li>
 
                     <li class="site-footer-link-item">
-                        <a href="#faqs" class="site-footer-link">FAQs</a>
+                        <a href="#faq" class="site-footer-link">FAQs</a>
                     </li>
 
                     <li class="site-footer-link-item">
@@ -246,15 +339,17 @@
             </div>
             <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
                 
-                </div>
-                <p class="copyright-text mt-lg-5 mt-4">Copyright. All rights reserved.
-                    <br><br>Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">Joel -
+                <p class="copyright-text mt-lg-5 mt-4">©2024 OVERSEAS LIVING (MM2H) SDN BHD
+                    All Rights Reserved.
+                    <br><br>Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">By Joel Wong -
+                        modified template from
                         TemplateMo</a>
                 </p>
 
             </div>
-
         </div>
+
+    </div>
     </div>
 </footer>
 

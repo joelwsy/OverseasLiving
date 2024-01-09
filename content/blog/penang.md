@@ -1,15 +1,26 @@
 +++
-title = 'Penang'
+title = 'Explore Penang'
 date = 2023-12-15T09:52:55+08:00
 draft = false
 
 topic = "penang" 
-bgimg = "(../../static/images/malaysia/multiculture.png)"
+
+image = "/images/blog/bridge.jpg"
 +++
 
 ###### What pops into your mind when you first heard about "Penang"? Delicacies? Heritage architecture? Penang Hill, seasides, and national park?
 
 Penang is located in the north part of the Peninsular Malaysia and George Town is the capital city. It was once an important Straits of Malacca trading hub, and the city’s old town is known for its British colonial buildings, Chinese shophouses and mosques. Nowadays, George Town is a modern city with skyscrapers, condominiums, and shopping malls. It is connected to the Malaysia Peninsula by two main road bridges, Penang Bridge and the Sultan Abdul Halim Muadzam Shah Bridge (Penang Second Bridge).
+
+##### Get to Know Penang Better :
+
+###### ![Weather](/images/icons/sunny.svg) Average tempreture of 26°C to 32°C 
+
+###### ![Population](/images/icons/population.svg) Population of Penang : 1.77 Million People~
+
+###### ![Population](/images/icons/population.svg) Population of Malaysia : 34.30 Million People~
+
+###### ![Currency](/images/icons/dollar.svg) Exchange rate : RM1 = $4.65 USD (as of Jan 2024)
 
 <!-- split -->
 

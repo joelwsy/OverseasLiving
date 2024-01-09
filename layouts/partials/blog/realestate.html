@@ -1,9 +1,14 @@
 <link href="{{ "css/property.css" | absURL }}" rel="stylesheet">
 
+{{ $data := getJSON "data/blog/property/estate.json" }}
 
-{{$data := getJSON "data/blog/property/estate.json"}}
+{{ $contentParts := split .RawContent "<!-- split -->" }}
 
-<div class="cards-container">
+
+<!-- Render the "long stay" content -->
+{{ index $contentParts 0 | markdownify }}
+
+<div class="cards-container mb-5">
     {{ range $key, $value := $data }}
     <div class="card">
         <div class="card-details">
@@ -15,4 +20,32 @@
         </a>
     </div>
     {{ end }}
+</div>
+
+<!-- Render the "short stay" content -->
+{{ index $contentParts 1 | markdownify }}
+
+<div class="row mt-5">
+    <div class="image-container">
+        <img src="/images/estate/dailybus.jpg" alt="Office Building">
+        <img src="/images/estate/dailymarket.jpg" alt="Office Door">
+        <img src="/images/estate/dailybank.jpg" alt="Office">
+        <!-- Add more images as needed -->
+    </div>
+
+    <style>
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .image-container img {
+        width: calc(100% / 3 - 10px); /* Adjust this value based on the number of images and desired spacing */
+        height: auto;
+        object-fit: cover;
+        aspect-ratio: 4 / 3;
+        margin-top: 1rem;
+    }
+    </style>
+
 </div>

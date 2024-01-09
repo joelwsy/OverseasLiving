@@ -43,25 +43,35 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-lg-5 me-lg-auto">
                 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="https://www.overseaslivingpenang.com/">Home</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle click-scroll" href="https://www.overseaslivingpenang.com/">Home</a>
+
                 </li>
                 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="https://www.overseaslivingpenang.com/">Services &amp; Content</a>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle click-scroll" href="https://www.overseaslivingpenang.com/">Services &amp; Content</a>
+
                 </li>
                 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="https://www.overseaslivingpenang.com/">Why Malaysia?</a>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle click-scroll" href="https://www.overseaslivingpenang.com/">Why Malaysia?</a>
+
                 </li>
                 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="https://www.overseaslivingpenang.com/">FAQs</a>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle click-scroll" href="https://www.overseaslivingpenang.com/">FAQs</a>
+
                 </li>
                 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="https://www.overseaslivingpenang.com/">Contact</a>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle click-scroll" href="https://www.overseaslivingpenang.com/">Contact</a>
+
                 </li>
+                
                 
 
                 <li class="nav-item dropdown">
@@ -91,13 +101,47 @@
 
 
 
-<header class="site-header d-flex flex-column justify-content-center align-items-center">
+<header class="site-header d-flex flex-column justify-content-center align-items-center section_1" id="header-page">
+    <img src="/images/blog/gurneydrive.png" alt="header image" class="background-image">
     <div class="container">
         <div class="col-lg-5 col-12 mb-5">
             <h2 class="text-black">Real Estate</h2>
         </div>
     </div>
-</header>
+</header>   
+
+<style> 
+    .background-image {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        max-height: 300px;
+        top: 0;
+        object-fit: cover;
+        object-position: top;
+    }
+    
+    #header-page {
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255,255,255,0));
+        position: relative;
+        padding-top: auto;
+        padding-bottom: 5vh;
+        margin-top: 5rem;
+    }
+
+    @media (max-width: 768px) {
+        #header-page {
+            padding-top: 5vh;
+            padding-bottom: 5vh;
+        }
+    }
+
+    .section_1 p{
+        color: black;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+</style>
 
 <section class="topics-detail-section section-padding" id="topics-detail">
     <div class="container">
@@ -110,7 +154,21 @@
 
 
 
-<div class="cards-container">
+
+
+
+<p>You can choose to have a long stay or short stay in Malaysia. Malaysia welcomes foreigners to reside in Malaysia under a special program called Malaysia My Second Home Program (MM2H). This is a 10 years multiple entry visa and it is renewable!</p>
+<ul>
+<li>
+<p><strong>Long stay tenacies are 6 months and above</strong>,</p>
+</li>
+<li>
+<p><strong>Short stay tenancies are less than 6 months</strong>.</p>
+</li>
+</ul>
+
+
+<div class="cards-container mb-5">
     
     <div class="card">
         <div class="card-details">
@@ -143,6 +201,44 @@
     </div>
     
 </div>
+
+
+<h4 id="short-stay">Short Stay</h4>
+<p>What is Malaysia like? Where is Penang? For those who are interested in living in Malaysia but feeling anxious and not well-prepared for the transition that you will be going through, it is perfect for you to start by trying a short stay experience (one to three months) in Malaysia.
+For short stay, visitors are encouraged to rent a condominium. Condos that we are offering will be a fully furnished unit with furniture and electric appliances. You may enjoy your stay in Malaysia immediately upon your arrival.</p>
+<p>Recently, many people from cold countries come to Malaysia for short stay during winter season in their home countries. If you want to plan for a short stay in Malaysia during winter season in your home country, we recommend you to plan early. The peak seasons in Malaysia are January to March, July to August, November to December.</p>
+<h6 id="condominium">CONDOMINIUM</h6>
+<p>Condominiums mainly comprising 2-3 rooms including kitchen, furniture, home appliances, and kitchenware. We provides prior arrival inspection to make sure your reserved units are in proper condition, and you may immediately start your stay in a comfortable and clean environment.
+<a href="/blog/condo/">Click here</a> for more information of condominiums.</p>
+<h6 id="daily-life">DAILY LIFE</h6>
+<p>In most of the residential areas, essential facilities and services such as morning markets for fresh groceries, local supermarket, hypermarkets, banks and post offices are nearby for your convenience and comfort. If you do not have a car, there are public transport services like Rapid bus, “Grab” or “CAT” (free bus services by the state government)!</p>
+
+
+<div class="row mt-5">
+    <div class="image-container">
+        <img src="/images/estate/dailybus.jpg" alt="Office Building">
+        <img src="/images/estate/dailymarket.jpg" alt="Office Door">
+        <img src="/images/estate/dailybank.jpg" alt="Office">
+        
+    </div>
+
+    <style>
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .image-container img {
+        width: calc(100% / 3 - 10px);  
+        height: auto;
+        object-fit: cover;
+        aspect-ratio: 4 / 3;
+        margin-top: 1rem;
+    }
+    </style>
+
+</div>
+
 
                 
 
@@ -205,18 +301,42 @@
                 </p>
                 <button class="btn btn-outline-secondary btn-lg">
                     <a href="/blog/inquiry/">
-                    <strong>Contact Us </strong>
-                    </a>    
+                        <strong>Contact Us </strong>
+                    </a>
                 </button>
 
                 <button class="btn btn-outline-secondary btn-lg">
-                    <a href="/blog/inquiry/">
-                    <strong>Company Details </strong>
+                    <a href="/blog/company-details/">
+                        <strong>Company Details </strong>
                     </a>
                 </button>
             </div>
         </div>
-    </div>
+
+        <div class="row mt-5">
+            <div class="image-container">
+                <img src="/images/office-building.jpg" alt="Office Building">
+                <img src="/images/office-door.jpg" alt="Office Door">
+                <img src="/images/office.jpg" alt="Office">
+                
+            </div>
+
+            <style>
+            .image-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .image-container img {
+                width: calc(100% / 3 - 10px);  
+                height: auto;
+                object-fit: cover;
+                aspect-ratio: 4 / 3;
+                margin-top: 1rem;
+            }
+            </style>
+
+        </div>
 </section>
     <!DOCTYPE html>
 <html>
@@ -244,7 +364,7 @@
                     </li>
 
                     <li class="site-footer-link-item">
-                        <a href="#faqs" class="site-footer-link">FAQs</a>
+                        <a href="#faq" class="site-footer-link">FAQs</a>
                     </li>
 
                     <li class="site-footer-link-item">
@@ -270,15 +390,17 @@
             </div>
             <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
                 
-                </div>
-                <p class="copyright-text mt-lg-5 mt-4">Copyright. All rights reserved.
-                    <br><br>Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">Joel -
+                <p class="copyright-text mt-lg-5 mt-4">©2024 OVERSEAS LIVING (MM2H) SDN BHD
+                    All Rights Reserved.
+                    <br><br>Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">By Joel Wong -
+                        modified template from
                         TemplateMo</a>
                 </p>
 
             </div>
-
         </div>
+
+    </div>
     </div>
 </footer>
 

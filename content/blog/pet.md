@@ -1,10 +1,10 @@
 +++
-title = 'pet'
+title = 'About Pet Import/Exportation'
 date = 2023-12-07T13:51:08+08:00
 draft = false
 
-topic = "pet"
-bgimg = "(../../static/images/malaysia/multiculture.png)"
+topic = "Pet"
+image = "/images/pets.jpg"
 +++
 
 ### Traveling with Pets: Import and Export Guidelines

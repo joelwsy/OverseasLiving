@@ -43,25 +43,35 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-lg-5 me-lg-auto">
                 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="https://www.overseaslivingpenang.com/">Home</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle click-scroll" href="https://www.overseaslivingpenang.com/">Home</a>
+
                 </li>
                 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="https://www.overseaslivingpenang.com/">Services &amp; Content</a>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle click-scroll" href="https://www.overseaslivingpenang.com/">Services &amp; Content</a>
+
                 </li>
                 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="https://www.overseaslivingpenang.com/">Why Malaysia?</a>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle click-scroll" href="https://www.overseaslivingpenang.com/">Why Malaysia?</a>
+
                 </li>
                 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="https://www.overseaslivingpenang.com/">FAQs</a>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle click-scroll" href="https://www.overseaslivingpenang.com/">FAQs</a>
+
                 </li>
                 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="https://www.overseaslivingpenang.com/">Contact</a>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle click-scroll" href="https://www.overseaslivingpenang.com/">Contact</a>
+
                 </li>
+                
                 
 
                 <li class="nav-item dropdown">
@@ -91,13 +101,47 @@
 
 
 
-<header class="site-header d-flex flex-column justify-content-center align-items-center">
+<header class="site-header d-flex flex-column justify-content-center align-items-center section_1" id="header-page">
+    <img src="/images/blog/sarawak.jpg" alt="header image" class="background-image">
     <div class="container">
         <div class="col-lg-5 col-12 mb-5">
-            <h2 class="text-black">SMM2HVisa</h2>
+            <h2 class="text-black">SMM2H Visa Application</h2>
         </div>
     </div>
-</header>
+</header>   
+
+<style> 
+    .background-image {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        max-height: 300px;
+        top: 0;
+        object-fit: cover;
+        object-position: top;
+    }
+    
+    #header-page {
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255,255,255,0));
+        position: relative;
+        padding-top: auto;
+        padding-bottom: 5vh;
+        margin-top: 5rem;
+    }
+
+    @media (max-width: 768px) {
+        #header-page {
+            padding-top: 5vh;
+            padding-bottom: 5vh;
+        }
+    }
+
+    .section_1 p{
+        color: black;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+</style>
 
 <section class="topics-detail-section section-padding" id="topics-detail">
     <div class="container">
@@ -154,7 +198,7 @@
 
                 
                 
-<table class="table table-bordered">
+<table class="table table-bordered add-border">
     <thead>
         <tr>
             <th></th>
@@ -165,35 +209,39 @@
         <tbody>
             <tr>
                 <th>Liquid Assests</ths>
-                <td>RM 1.5 MIL</td>
-                <td>RM 1.5 MIL</td>
+                <td>RM 350K </td>
+                <td>RM 500K </td>
             </tr>
             <tr>
                 <th>Income</th>
                 <td>RM40K / Month</td>
-                <td>RM40K / Month</td>
+                <td>RM10K / Month</td>
             </tr>
             <tr>
                 <th>Fixed Deposit Upon Arrival</th>
-                <td>RM 1 MIL</td>
-                <td>RM 1 MIL</td>
-            </tr>
-            <tr>
-                <th>Additional deposit per dependant</th>
-                <td>-</td>
-                <td>RM 50K</td>
-            </tr>
-            <tr>
-                <th>Primary Finanical Proof</th>
-                <td colspan="2" style="text-align: center;">Cash, Time deposit</td>
-            </tr>
-            <tr>
-                <th>Secondary Finanical Proof</th>
-                <td colspan="2" style="text-align: center;">Investment funds, bonds, and
-                    insurance investment</td>
+                <td>RM 150K (Individual applicants) <br> RM 300K (Couple applicants) <br> * either from
+                    approved pension fund or other offshore income</td>
+                <td> - </td>
             </tr>
         </tbody>
 </table>
+
+<style>
+    .add-border {
+        border-width: 1px !important;
+    }
+    
+    .add-border th, td {
+        text-align: left !important;
+        font-weight: var(--font-weight-normal) !important;
+        color:  var(--p-color) !important;
+        font-size : var(--p-font-size) !important;
+    }
+    
+    .add-border th {
+        font-weight: bold !important;
+    }
+    </style>
 
 
 <h3 class="text-md-left mt-5">MM2H Application Process</h3>
@@ -260,7 +308,7 @@
             <li>
                 <h4 class="text-black mb-3">Submit the application together with the government and agent fees</h4>
 
-                <p class="text-black">Submit your prepared application along with the required government and agent fees. Our team ensures a timely and accurate submission, facilitating the official processing of your MM2H application.</p>
+                <p class="text-black">Submit your prepared application along with the required government and licensed consultant&#39;s fees. Our team ensures a timely and accurate submission, facilitating the official processing of your MM2H application.</p>
 
                 <div class="icon-holder">
                     
@@ -273,7 +321,7 @@
             <li>
                 <h4 class="text-black mb-3">Time frame for approval is within 90-120 days after submission</h4>
 
-                <p class="text-black">The MM2H approval process typically takes between 90 to 120 days after the submission of your application. We keep you informed about the progress, providing transparency and updates throughout this period.</p>
+                <p class="text-black">The MM2H approval process typically takes between 90 to 120 working days after the submission of your application. We keep you informed about the progress, providing transparency and updates throughout this period.</p>
 
                 <div class="icon-holder">
                     
@@ -286,7 +334,7 @@
             <li>
                 <h4 class="text-black mb-3">Approved!</h4>
 
-                <p class="text-black">Congratulations! Upon successful approval, you have officially been accepted into the MM2H program. This marks a significant milestone in your journey towards making Malaysia your second home.</p>
+                <p class="text-black">Congratulations! Upon successful approval, this marks a significant milestone in your journey towards making Malaysia your second home.</p>
 
                 <div class="icon-holder">
                     
@@ -299,7 +347,7 @@
             <li>
                 <h4 class="text-black mb-3">Endorsement within 6 months</h4>
 
-                <p class="text-black">Complete the endorsement process within 6 months of approval. Our team guides you through the necessary steps to ensure a seamless transition and compliance with the program requirements.</p>
+                <p class="text-black">Complete the endorsement process within 6 months of approval. Our team guides you through the necessary steps to ensure a seamless transition and compliance with the program requirements, including setting up a fixed deposit, undergoing a medical checkup, and obtaining medical insurance in Malaysia.</p>
 
                 <div class="icon-holder">
                     
@@ -310,22 +358,9 @@
             </li>
             
             <li>
-                <h4 class="text-black mb-3">Fixed deposit, medical checkup, medical insurance in Malaysia</h4>
-
-                <p class="text-black">Fulfill the post-approval requirements, including setting up a fixed deposit, undergoing a medical checkup, and obtaining medical insurance in Malaysia. Our experts assist you in navigating these essential steps.</p>
-
-                <div class="icon-holder">
-                    
-                    <span class="material-symbols-outlined">
-                        medical_information
-                    </span>
-                </div>
-            </li>
-            
-            <li>
                 <h4 class="text-black mb-3">Issuing of MM2H sticker</h4>
 
-                <p class="text-black">After meeting all requirements, receive your MM2H sticker. This sticker signifies your official participation in the program and facilitates your stay in Malaysia.</p>
+                <p class="text-black">After meeting all requirements, you will receive your MM2H sticker on passport. This sticker signifies your official participation in the program and facilitates your stay in Malaysia.</p>
 
                 <div class="icon-holder">
                     
@@ -352,15 +387,6 @@
     </div>
 </div>
 
-<div class="col-12 text-center mt-5">
-    <p class="text-black">
-        Want to learn more?
-        <a href="#" class="btn custom-btn custom-border-btn ms-3">Enquiry</a>
-    </p>
-</div>
-
-
-
 
 <section class="faq-section section-padding" id="section_4_MM2H">
     <div class="container">
@@ -385,9 +411,12 @@
                         <div id="collapsetwo" class="accordion-collapse collapse"
                             aria-labelledby="headingtwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                If you need to replace a passport, you need to apply for transfer of visa from old to new passport. During the transfer process, if the first visa given is less than 10 years, you can claim the balance visa up to 10 years (subject to validity of passport). The whole process takes 1-3 working days.
+                                
+                                <p>The Sarawak Tourism Board will review the visa extension application and supporting documents. They may request additional information or documentation if needed. The processing time for visa extensions can vary, but it generally takes several weeks to a few months.</p>
+                                
                             </div>
                         </div>
+
                     </div>
                     
                     <div class="accordion-item">
@@ -402,9 +431,22 @@
                         <div id="collapseone" class="accordion-collapse collapse"
                             aria-labelledby="headingone" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                MM2H Visa is renewable after 10 years. It is advisable to start the renewal process 3 months prior to the visa expiry. The whole process takes 30-60 working days.
+                                
+                                <ul>
+                                    
+                                    <li>Required Documents</li>
+                                    
+                                    <li>Completed renewal application form</li>
+                                    
+                                    <li>Proof of financial resources, such as bank statements or fixed deposit certificates</li>
+                                    
+                                    <li>Proof of medical insurance coverage.</li>
+                                    
+                                </ul>
+                                
                             </div>
                         </div>
+
                     </div>
                     
                     <div class="accordion-item">
@@ -419,9 +461,12 @@
                         <div id="collapsethree" class="accordion-collapse collapse"
                             aria-labelledby="headingthree" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                M2H Visa holders need to terminate their MM2H Visas if they decided to return to their home country. The visa holders must be personally in Malaysia and surrender their passports to MM2H consultant to process the termination at immigration office. A letter addressed to the bank will be given to the visa holders, to do the withdrawal their MM2H Fixed Deposit, after the termination of MM2H visa. The whole process takes 5-7 working days.
+                                
+                                <p>If a participant decides to terminate their participation in the MM2H program, they can withdraw the entire fixed deposit amount. To do so, they must obtain the Approval letter from the Ministry of Tourism, which confirms the termination of their MM2H status.</p>
+                                
                             </div>
                         </div>
+
                     </div>
                     
                     <div class="accordion-item">
@@ -436,9 +481,24 @@
                         <div id="collapsefour" class="accordion-collapse collapse"
                             aria-labelledby="headingfour" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                MM2H Homers may apply to withdraw part of MM2H Fixed Deposit for the purchase of property or vehicle, medical treatment and children&#39;s education. The whole process takes 5-7 working days. Partial Withdrawal of Fixed Deposit under MM2H Program Above 50 years old : maximum withdrawal RM 50K Below 50 years old: maximum withdrawal RM 150K
+                                
+                                <ul>
+                                    
+                                    <li>Letter of Intent from Applicant</li>
+                                    
+                                    <li>Copy of Approved S-MM2H Conditional Approval Letter</li>
+                                    
+                                    <li>Copy of Applicant&#39;s Passport (Applicant&#39;s Personal Details and Multiple-Entry Pass Page)</li>
+                                    
+                                    <li>Copy of Latest Fixed Deposit with the bank address and the account number</li>
+                                    
+                                    <li>Copy of Proof of Payment or any Supported Documents</li>
+                                    
+                                </ul>
+                                
                             </div>
                         </div>
+
                     </div>
                     
                 </div>
@@ -509,18 +569,42 @@
                 </p>
                 <button class="btn btn-outline-secondary btn-lg">
                     <a href="/blog/inquiry/">
-                    <strong>Contact Us </strong>
-                    </a>    
+                        <strong>Contact Us </strong>
+                    </a>
                 </button>
 
                 <button class="btn btn-outline-secondary btn-lg">
-                    <a href="/blog/inquiry/">
-                    <strong>Company Details </strong>
+                    <a href="/blog/company-details/">
+                        <strong>Company Details </strong>
                     </a>
                 </button>
             </div>
         </div>
-    </div>
+
+        <div class="row mt-5">
+            <div class="image-container">
+                <img src="/images/office-building.jpg" alt="Office Building">
+                <img src="/images/office-door.jpg" alt="Office Door">
+                <img src="/images/office.jpg" alt="Office">
+                
+            </div>
+
+            <style>
+            .image-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .image-container img {
+                width: calc(100% / 3 - 10px);  
+                height: auto;
+                object-fit: cover;
+                aspect-ratio: 4 / 3;
+                margin-top: 1rem;
+            }
+            </style>
+
+        </div>
 </section>
     <!DOCTYPE html>
 <html>
@@ -548,7 +632,7 @@
                     </li>
 
                     <li class="site-footer-link-item">
-                        <a href="#faqs" class="site-footer-link">FAQs</a>
+                        <a href="#faq" class="site-footer-link">FAQs</a>
                     </li>
 
                     <li class="site-footer-link-item">
@@ -574,15 +658,17 @@
             </div>
             <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
                 
-                </div>
-                <p class="copyright-text mt-lg-5 mt-4">Copyright. All rights reserved.
-                    <br><br>Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">Joel -
+                <p class="copyright-text mt-lg-5 mt-4">©2024 OVERSEAS LIVING (MM2H) SDN BHD
+                    All Rights Reserved.
+                    <br><br>Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">By Joel Wong -
+                        modified template from
                         TemplateMo</a>
                 </p>
 
             </div>
-
         </div>
+
+    </div>
     </div>
 </footer>
 

@@ -14,9 +14,11 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-lg-5 me-lg-auto">
                 {{ range .Site.Menus.main }}
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="{{ .URL | absURL }}">{{ .Name }}</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle click-scroll" href="{{ .URL | absURL }}">{{ .Name }}</a>
+
                 </li>
+                
                 {{ end }}
 
                 <li class="nav-item dropdown">

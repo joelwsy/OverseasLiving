@@ -1,10 +1,10 @@
 +++
-title = 'Expat'
+title = 'For Expats'
 date = 2023-12-20T11:26:49+08:00
 draft = false
 
 topic = "expat" 
-bgimg = "(../../static/images/malaysia/multiculture.png)"
+image = "/images/blog/c-expat-by-zhen-hao-chu.jpg"
 +++
 
 ###### PROPERTIES RENTAL FOR WORKING EXPATRIATES
